@@ -71,10 +71,11 @@ body { margin : 0; padding : 0}
 .navbar-nav li.bgr1 .sub-menu > li, .navbar-nav li.bgr2 .sub-menu > li{
 	background-color: rgba(255,255,255,0.85	);
 }
-#erropix-all-in-one-4 li{
+
+.sidebar-left-list-pages li{
 	list-style: none;
 }
 
-#erropix-all-in-one-4 li a{
+.sidebar-left-list-pages li a{
 	list-style: none;
 }
