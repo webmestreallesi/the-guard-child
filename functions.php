@@ -58,5 +58,4 @@ if ( ! function_exists( 'theguard_topbar_r' ) ) {
 	}
 }
 
-
 /*FIN TOP BAR CUSTOMIZATION*/
