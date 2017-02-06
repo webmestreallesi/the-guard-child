@@ -46,7 +46,7 @@ body { margin : 0; padding : 0}
 }
 
 .shortheader1.head_line .sell_topbar .languages ul .lang-item, .shortheader1.head_line .sell_topbar #menu-espace-client-top .menu-item {
-    list-style: none;
+    list-style-type: none;
 	 color: rgba(144,145,156,1);
 }
 .shortheader1.head_line .sell_topbar .languages ul .lang-item a, .shortheader1.head_line .sell_topbar #menu-espace-client-top .menu-item a {
@@ -71,7 +71,7 @@ body { margin : 0; padding : 0}
 .navbar-nav li.bgr1 .sub-menu > li, .navbar-nav li.bgr2 .sub-menu > li{
 	background-color: rgba(255,255,255,0.85	);
 }
-.widget-area ul {
+.widget-area ul.sidebar-left-list-pages {
 	list-style-type: none;
 }
 .sidebar-left-list-pages .page_item{
