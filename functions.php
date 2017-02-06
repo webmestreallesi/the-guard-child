@@ -42,7 +42,7 @@ if ( ! function_exists( 'theguard_topbar_r' ) ) {
 				<div class="col-md-2 col-sm-12 col-xs-12 languages">';
 					//lien espace client
 					echo '<ul>';
-					wp_nav_menu(array( 'menu' => 45, 'container_class' => 'menu-customer_area',
+					wp_nav_menu(array( 'menu' => 'Espace client Top', 'menu_id'=> 'menu-espace-client-top', 'container_class' => 'menu-customer_area',
     'echo' => true, 'before' => '<i class="ultimate1600-user"></i>', 'after' => '', 'link_before' => ''));
 					echo '</ul>';
 				echo '</div>  
