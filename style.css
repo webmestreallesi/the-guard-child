@@ -83,7 +83,7 @@ body { margin : 0; padding : 0}
 	/* margin: 0 0 5px 10px; */
     /* padding: 4px 8px; */
 }
-.sidebar-left-list-pages li{
+.sidebar-left-list-pages ul li{
 	border-bottom:1px dotted #21252b;
 	list-style: none;
 	margin:0;
