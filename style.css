@@ -116,11 +116,11 @@ body { margin : 0; padding : 0}
 /*end menu pages sidebar left*/
 .page .entry-content {
     margin:0;
-	padding:0;
+	padding:0;	
 }
 .entry-content h1, .entry-content h2, .entry-content h3{
 	text-align:left;
-	padding-top: 25px;
+	padding-top: 0;
 }
 
 
