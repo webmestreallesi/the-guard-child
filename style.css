@@ -84,8 +84,9 @@ body { margin : 0; padding : 0}
 .sidebar-left-list-pages li{
 	border-bottom:1px dotted #21252b;
 	list-style: none;
+	line-height:2em !important;
 	margin:0 !important;
-	padding:10px;
+	padding:10px !important;
 }
 .sidebar-left-list-pages li.page-item-8097{
 	border:0;
