@@ -87,6 +87,8 @@ body { margin : 0; padding : 0}
 	line-height:2em !important;
 	margin:0 !important;
 	padding:10px !important;
+	display:block;
+	
 }
 .sidebar-left-list-pages li.page-item-8097{
 	border:0;
@@ -102,7 +104,6 @@ body { margin : 0; padding : 0}
 	display:block;
 }
 .sidebar-left-list-pages li a:hover{
-	background-color:#009ee0;
 	color: #fff;
 	display:block;
 }
