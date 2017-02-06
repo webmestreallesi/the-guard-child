@@ -71,7 +71,10 @@ body { margin : 0; padding : 0}
 .navbar-nav li.bgr1 .sub-menu > li, .navbar-nav li.bgr2 .sub-menu > li{
 	background-color: rgba(255,255,255,0.85	);
 }
-
+/*menu pages sidebar left*/
+.sidebar-left-list-pages li{
+	color:#000;
+}
 .sidebar-left-list-pages li{
 	list-style: none;
 }
