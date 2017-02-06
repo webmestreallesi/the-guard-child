@@ -95,4 +95,7 @@ body { margin : 0; padding : 0}
 	color:#21252b;
 	padding:5px 0 5px 0;
 }
+.sidebar-left-list-pages li a:hover{
+	text-decoration:underline;
+}
 /*end menu pages sidebar left*/
