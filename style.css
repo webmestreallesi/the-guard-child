@@ -87,7 +87,7 @@ body { margin : 0; padding : 0}
 	line-height:2em !important;
 	margin:0 !important;
 	padding:10px !important;
-	
+	display:block
 }
 .sidebar-left-list-pages li.page-item-8097{
 	border:0;
@@ -99,10 +99,12 @@ body { margin : 0; padding : 0}
 .sidebar-left-list-pages li a{
 	text-decoration:none;
 	color:#21252b;
+	padding:inherit;
 	display:block;
 }
 .sidebar-left-list-pages li a:hover{
 	color: #fff;
 	display:block;
+	background-color:#009ee0;
 }
 /*end menu pages sidebar left*/
