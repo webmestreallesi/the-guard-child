@@ -73,12 +73,12 @@ body { margin : 0; padding : 0}
 }
 /*menu pages sidebar left*/
 .widget-area{
-	background-color:#000;
+	background-color:#fff;
 	border:1px solid #21252b;
-	padding:5px;
+	padding:10px;
 }
 .sidebar-left-list-pages li{
-	background-color:#000;
+	border-bottom:1px dotted #21252b;
 }
 .sidebar-left-list-pages li{
 	list-style: none;
