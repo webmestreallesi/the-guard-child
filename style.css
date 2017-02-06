@@ -46,7 +46,7 @@ body { margin : 0; padding : 0}
 }
 
 .shortheader1.head_line .sell_topbar .languages ul .lang-item, .shortheader1.head_line .sell_topbar #menu-espace-client-top .menu-item {
-    list-style-type: none;
+    list-style: none;
 	 color: rgba(144,145,156,1);
 }
 .shortheader1.head_line .sell_topbar .languages ul .lang-item a, .shortheader1.head_line .sell_topbar #menu-espace-client-top .menu-item a {
@@ -72,12 +72,12 @@ body { margin : 0; padding : 0}
 	background-color: rgba(255,255,255,0.85	);
 }
 .widget-area ul.sidebar-left-list-pages {
-	list-style-type: none;
+	list-style: none;
 }
 .sidebar-left-list-pages .page_item{
-	list-style-type: none;
+	list-style: none;
 }
 
 .sidebar-left-list-pages .page_item a{
-	list-style-type: none;
+	list-style: none;
 }
