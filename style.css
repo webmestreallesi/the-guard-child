@@ -72,8 +72,8 @@ body { margin : 0; padding : 0}
 	background-color: rgba(255,255,255,0.85	);
 }
 
-.sidebar-left-list-pages li{
-	list-style: none;
+.sidebar-left-list-pages {
+	list-style-type: none;
 }
 
 .sidebar-left-list-pages .page_item a{
