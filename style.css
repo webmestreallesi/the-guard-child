@@ -85,8 +85,6 @@ body { margin : 0; padding : 0}
 }
 .sidebar-left-list-pages li.page-item{
 	border-bottom:1px dotted #21252b;
-	margin:0;
-	padding:5px;
 }
 .sidebar-left-list-pages li.page-item-8097{
 	border:0;
@@ -101,7 +99,7 @@ body { margin : 0; padding : 0}
 .sidebar-left-list-pages li a{
 	text-decoration:none;
 	color:#21252b;
-	padding:5px;
+	padding:5px 0 5px 0;
 }
 .sidebar-left-list-pages li a:hover{
 	text-decoration:underline;
