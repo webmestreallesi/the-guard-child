@@ -76,7 +76,7 @@ body { margin : 0; padding : 0}
 	list-style: none;
 }
 .sidebar-left-list-pages li:before {
-    content: '';
+    content: '' !important;
 }
 .sidebar-left-list-pages li a{
 	list-style: none;
