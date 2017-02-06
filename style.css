@@ -72,14 +72,13 @@ body { margin : 0; padding : 0}
 	background-color: rgba(255,255,255,0.85	);
 }
 /*menu pages sidebar left*/
-.widget-area{
+.widget-area ul.sidebar-left-list-pages {
 	background-color:#fff;
 	border:1px solid #21252b;
 	padding:0;
-}
-.sidebar-left-list-pages{
-	padding:0;
 	margin:0;
+	/* margin: 0 0 5px 10px; */
+    /* padding: 4px 8px; */
 }
 .sidebar-left-list-pages li{
 	border-bottom:1px dotted #21252b;
