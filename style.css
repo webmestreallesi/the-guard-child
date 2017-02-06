@@ -75,10 +75,10 @@ body { margin : 0; padding : 0}
 ul.sidebar-left-list-pages {
 	list-style: none;
 }
-ul.sidebar-left-list-pages li.page_item {
+.sidebar-left-list-pages .page_item {
 	list-style: none;
 }
-ul.sidebar-left-list-pages li .page_item a{
+.sidebar-left-list-pages .page_item a{
 	color:red;
 	list-style: none;
 }
