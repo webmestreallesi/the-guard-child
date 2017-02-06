@@ -75,7 +75,9 @@ body { margin : 0; padding : 0}
 .sidebar-left-list-pages li{
 	list-style: none;
 }
-
+.sidebar-left-list-pages li:before {
+    content: '';
+}
 .sidebar-left-list-pages li a{
 	list-style: none;
 }
