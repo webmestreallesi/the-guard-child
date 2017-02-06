@@ -98,10 +98,11 @@ body { margin : 0; padding : 0}
 .sidebar-left-list-pages li a{
 	text-decoration:none;
 	color:#21252b;
-	padding:5px 0 5px 0;
+	padding:inherit;
+	display:block;
 }
 .sidebar-left-list-pages li a:hover{
-	bg-color: #009ee0;
+	background-color:#009ee0;
 	color: #fff;
 	display:block;
 }
