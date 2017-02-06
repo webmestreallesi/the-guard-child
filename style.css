@@ -72,16 +72,23 @@ body { margin : 0; padding : 0}
 	background-color: rgba(255,255,255,0.85	);
 }
 /*menu pages sidebar left*/
+.widget-area{
+	background-color:#000;
+	border:1px solid #21252b;
+	padding:5px;
+}
 .sidebar-left-list-pages li{
-	color:#000;
+	background-color:#000;
 }
 .sidebar-left-list-pages li{
 	list-style: none;
 }
 .sidebar-left-list-pages li:before {
     content: '' !important;
-	padding-right: 0;
+	padding-right: 0 !important;
 }
 .sidebar-left-list-pages li a{
-	list-style: none;
+	text-decoration:none;
+	color:#21252b;
 }
+/*end menu pages sidebar left*/
