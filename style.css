@@ -80,6 +80,9 @@ body { margin : 0; padding : 0}
 .sidebar-left-list-pages li{
 	border-bottom:1px dotted #21252b;
 }
+.sidebar-left-list-pages li.page_item_has_children{
+	border:0;
+}
 .sidebar-left-list-pages li{
 	list-style: none;
 }
@@ -90,5 +93,6 @@ body { margin : 0; padding : 0}
 .sidebar-left-list-pages li a{
 	text-decoration:none;
 	color:#21252b;
+	padding:5px 0 5px 0;
 }
 /*end menu pages sidebar left*/
