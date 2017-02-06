@@ -77,11 +77,10 @@ body { margin : 0; padding : 0}
 }
 .sidebar-left-list-pages ul {
 	list-style: none;
-	
 }
-.sidebar-left-list-pages ul li.page_item {
-	
+.sidebar-left-list-pages ul .page_item {
+	list-style: none;
 }
-.sidebar-left-list-pages ul li.page_item a{
+.sidebar-left-list-pages ul .page_item a{
 	color:red;
 }
