@@ -101,8 +101,8 @@ body { margin : 0; padding : 0}
 	padding:5px 0 5px 0;
 }
 .sidebar-left-list-pages li a:hover{
-	text-decoration:underline;
-	bg
+	bg-color: #009ee0;
+	color: #fff;
 	display:block;
 }
 /*end menu pages sidebar left*/
