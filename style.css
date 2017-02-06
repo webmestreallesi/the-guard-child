@@ -72,13 +72,10 @@ body { margin : 0; padding : 0}
 	background-color: rgba(255,255,255,0.85	);
 }
 
-ul.sidebar-left-list-pages {
+.sidebar-left-list-pages {
 	list-style: none;
 }
-.sidebar-left-list-pages .page_item {
-	list-style: none;
-}
+
 .sidebar-left-list-pages .page_item a{
-	color:red;
 	list-style: none;
 }
