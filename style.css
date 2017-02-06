@@ -78,7 +78,7 @@ body { margin : 0; padding : 0}
 .sidebar-left-list-pages ul {
 	list-style: none;
 }
-.sidebar-left-list-pages ul .page_item {
+ul.sidebar-left-list-pages li.page_item {
 	list-style: none;
 }
 .sidebar-left-list-pages ul .page_item a{
