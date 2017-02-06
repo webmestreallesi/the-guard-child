@@ -71,3 +71,46 @@ body { margin : 0; padding : 0}
 .navbar-nav li.bgr1 .sub-menu > li, .navbar-nav li.bgr2 .sub-menu > li{
 	background-color: rgba(255,255,255,0.85	);
 }
+/*menu pages sidebar left*/
+.widget-area {
+	background-color:#fff;
+	border:1px solid #21252b;
+	padding:0;
+	margin-bottom: 0;
+}
+.widget-area .widget{
+	margin-bottom: 0;
+}
+.widget-area ul.sidebar-left-list-pages {
+	padding:0;
+	margin:0;
+}
+.sidebar-left-list-pages li{
+	border-bottom:1px dotted #21252b;
+	list-style: none;
+	line-height:2em !important;
+	margin:0 !important;
+	padding:0 !important;
+	display:block;
+}
+.sidebar-left-list-pages li.page-item-8097{
+	border:0;
+}
+.sidebar-left-list-pages li:before {
+    content: '' !important;
+	padding-right: 0 !important;
+}
+.sidebar-left-list-pages li a{
+	text-decoration:none;
+	color:#21252b;
+	padding:inherit;
+	display:block;
+	padding:10px;
+}
+.sidebar-left-list-pages li a:hover{
+	color: #fff;
+	display:block;
+	margin:0 !important;
+	background-color:#009ee0;
+}
+/*end menu pages sidebar left*/
