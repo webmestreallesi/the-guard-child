@@ -1,0 +1,76 @@
+/*
+
+Theme Name: The Guard Child
+Template: the-guard
+Theme URI: http://guard.secretlab.pw
+Author: SecretLab
+Author URI: http://secretlab.pw
+Description: Security Services, CCTV and Bodyguard Company WordPress Theme
+Version: 1.0
+License: Commercial
+License URI: http://themeforest.net/licenses/terms/regular
+
+
+*/
+
+.sticky {}
+
+.resized {}
+
+
+/* YOU CAN PUT YOUR OWN CSS HERE */
+
+/*
+body { margin : 0; padding : 0}
+#stickymenu{ background-color:#fff;}
+.head_tr .sell_topbar{ background-color:inherit;color:#222222;}
+.darkform h3 {
+    color: rgba(32,189,255,1);
+    background-color: rgba(0,0,0,1);
+    margin: 0 -60px 30px -60px;
+    padding: 20px 15px 20px 15px;
+    text-align: center;
+}
+*/
+.shortheader1.head_line .sell_topbar .cdata {
+    text-align: left;
+}
+.shortheader1.head_line .social ul {
+    text-align: right;
+}
+/*top bar languages selection*/
+.shortheader1.head_line .sell_topbar .languages ul, .shortheader1.head_line .sell_topbar ul#menu-espace-client-top {
+    min-height: 20px;
+	margin:0;
+	padding:0;
+}
+
+.shortheader1.head_line .sell_topbar .languages ul .lang-item, .shortheader1.head_line .sell_topbar #menu-espace-client-top .menu-item {
+    list-style: none;
+	 color: rgba(144,145,156,1);
+}
+.shortheader1.head_line .sell_topbar .languages ul .lang-item a, .shortheader1.head_line .sell_topbar #menu-espace-client-top .menu-item a {
+    color: rgba(144,145,156,1);
+	font-weight: bold;
+	margin: 2px 0 0 0;
+	padding-top:2px;
+	text-decoration:none;
+	font-size: 17px;
+	font-family: Roboto;
+	line-height:28px;
+}
+.shortheader1.head_line .sell_topbar .languages ul .lang-item a:hover, .shortheader1.head_line .sell_topbar #menu-espace-client-top .menu-item a:hover {
+    color: #009ee0;
+	text-decoration:none;
+}
+.sell_topbar #menu-espace-client-top li i {
+    color: rgba(0,158,224,1);
+    margin-right: 7px;
+    margin-left: 25px;
+}
+.navbar-nav li.bgr1 .sub-menu > li, .navbar-nav li.bgr2 .sub-menu > li{
+	background-color: rgba(255,255,255,0.85	);
+}
+#footer{
+	
+}
