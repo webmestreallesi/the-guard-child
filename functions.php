@@ -140,6 +140,7 @@ function theguard_set_header_sidebar_layout_custom() {
 				echo '	 </ul>';
 				echo ' </div>';
 			}
+		}
 		echo '</div>';
 	}
 	if ($sl_sidebar_layout == 1) {
