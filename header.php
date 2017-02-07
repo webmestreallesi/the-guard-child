@@ -74,4 +74,5 @@ sell_set_globals();
 			 <?php wp_list_pages($args);  ?>
 			 </ul>
 		 </div>
+		  <?php } ?>
 
