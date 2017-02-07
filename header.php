@@ -25,7 +25,7 @@ sell_set_globals();
 </head>
 <?
 echo  "post courant :".$post_ID;
-get_defined_vars();
+print_r(get_defined_vars());
 ?>
 <body <?php body_class(); ?>>
 
