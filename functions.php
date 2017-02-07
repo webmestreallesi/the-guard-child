@@ -97,7 +97,7 @@ function theguard_set_header_sidebar_layout_custom() {
 
 function child_page_nav(){
 	//GET CHILD PAGES IF THERE ARE ANY
-	global $post;
+	//global $post;
 	$postID=$post->ID;
 	$children = get_pages('child_of='.$postID);
 	
