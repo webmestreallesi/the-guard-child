@@ -95,9 +95,9 @@ function theguard_set_header_sidebar_layout_custom() {
 }
 /*end Sidebar customization*/
 
-function child_page_nav($post){
+function child_page_nav(){
 	//GET CHILD PAGES IF THERE ARE ANY
-	echo "post courant :" $post;
+	echo "post courant :".$post;
 	$children = get_pages('child_of='.$post);
 	//GET PARENT PAGE IF THERE IS ONE
 	$parent = $post->post_parent;
