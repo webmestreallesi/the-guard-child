@@ -79,8 +79,7 @@ function theguard_set_header_sidebar_layout_custom() {
 			
 			//GET PARENT PAGE IF THERE IS ONE
 			$parent = $post->post_parent;
-			$idpage=the_ID();
-			echo "page courante :".$idpage;
+			echo "page courante :".$post->ID;
 
 			//DO WE HAVE SIBLINGS?
 			$siblings =  get_pages('child_of='.$parent);
