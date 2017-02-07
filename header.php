@@ -24,7 +24,10 @@ sell_set_globals();
 	?>
 </head>
 <?
-echo "page courante :";
+$examplePost = get_post();
+
+echo $examplePost->ID;
+echo "page courante :".$examplePost->ID;
 print_r(array_values($posts));
 $tab =  $posts['ID'];
 echo $tab;
