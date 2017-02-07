@@ -137,7 +137,7 @@ h4.home {font-family: Roboto; color: #21252b; font-weight: 400; font-size: 25px;
 h5.home {font-family: Roboto; color: #21252b; font-weight: 700; font-size: 22px; line-height: 28px; text-transform: none; text-align: center; margin-bottom:25px;}
 h6	.home {font-family: Roboto; color: #21252b; font-weight: 700; font-size: 17px; line-height: 23px; text-transform: none; text-align: center; margin-bottom:25px;}
 
-.row h1.home:before, .row-home .page .entry-content h2:before {content:""; position: absolute; top:0px; left: calc(50% - 30px); width: 60px; height: 2px; background-color: rgba(0,158,224,1); margin-bottom: 30px}
+.row-home h1.home:before, .row-home .page .entry-content h2:before {content:""; position: absolute; top:0px; left: calc(50% - 30px); width: 60px; height: 2px; background-color: rgba(0,158,224,1); margin-bottom: 30px}
 h3.home.h3line {padding-bottom: 20px;position: relative;}
 h3.home.h3line:before {content:""; position: absolute; bottom:0; left: 0; width: 60px; height: 2px; background-color: rgba(0,158,224,1); border-radius: 2px}
 /*fin custom home*/
