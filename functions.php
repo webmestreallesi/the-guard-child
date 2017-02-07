@@ -126,7 +126,7 @@ function child_page_nav(){
 	// and if it has children 
 	if(count($siblings) > 1 && !is_null($args))   
 	{
-		echo '<div class="widget subpages">';
+		echo '<div class="sidebar-left-list-pages">';
 				'<ul class="sidebar-left-list-pages">';
 			wp_list_pages($args);
 		echo '	 </ul>';
