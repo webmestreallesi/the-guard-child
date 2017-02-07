@@ -75,13 +75,12 @@ function theguard_set_header_sidebar_layout_custom() {
 		if (isset($theguard_layout[$secretlab['theguard_page_type'] . $prefix . 'left_sidebar_widgets'])) {
 			dynamic_sidebar($theguard_layout[$secretlab['theguard_page_type'] . $prefix . 'left_sidebar_widgets']);
 			//GET CHILD PAGES IF THERE ARE ANY
-			$children = get_pages('child_of='.$post->ID);
+			global $post;
+			$postID=$post->ID;
+			$children = get_pages('child_of='.$postID);
 			
 			//GET PARENT PAGE IF THERE IS ONE
 			$parent = $post->post_parent;
-			global $post;
-			$postID=$post->ID;
-			echo "page courante :".$postID;
 
 			//DO WE HAVE SIBLINGS?
 			$siblings =  get_pages('child_of='.$parent);
@@ -90,14 +89,14 @@ function theguard_set_header_sidebar_layout_custom() {
 			   $args = array(
 				 'depth' => 1,
 				 'title_li' => '',
-				 'child_of' => $post->ID
+				 'child_of' => $postID
 			   );
 
 			} elseif($parent != 0) {
 				$args = array(
 					 'depth' => 1,
 					 'title_li' => '',
-					 'exclude' => $post->ID,
+					 'exclude' => $postID,
 					 'child_of' => $parent
 				   );
 			}
@@ -114,42 +113,8 @@ function theguard_set_header_sidebar_layout_custom() {
 		} else {
 			echo "toto";
 			dynamic_sidebar($secretlab['theguard_page_type'] . '_default_left_sidebar');
-			//GET CHILD PAGES IF THERE ARE ANY
-			$children = get_pages('child_of='.$post->ID);
-
-			//GET PARENT PAGE IF THERE IS ONE
-			$parent = $post->post_parent;
-
-			//DO WE HAVE SIBLINGS?
-			$siblings =  get_pages('child_of='.$parent);
-
-			if( count($children) != 0) {
-			   $args = array(
-				 'depth' => 1,
-				 'title_li' => '',
-				 'child_of' => $post->ID
-			   );
-
-			} elseif($parent != 0) {
-				$args = array(
-					 'depth' => 1,
-					 'title_li' => '',
-					 'exclude' => $post->ID,
-					 'child_of' => $parent
-				   );
-			}
-			//Show pages if this page has more than one sibling 
-			// and if it has children 
-			if(count($siblings) > 1 && !is_null($args))   
-			{
-				echo '<div class="widget subpages">';
-						'<ul class="pages-list">';
-					wp_list_pages($args);
-				echo '	 </ul>';
-				echo ' </div>';
-			}
 		}
-		echo 'yuyu</div>';
+		echo '</div>';
 	}
 	if ($sl_sidebar_layout == 1) {
 		echo '<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 main">';
