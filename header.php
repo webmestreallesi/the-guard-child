@@ -24,7 +24,9 @@ sell_set_globals();
 	?>
 </head>
 <?
-echo  "post courant :".$post_ID; ?>
+echo  "post courant :".$post_ID;
+echo '$foo dans le contexte global : ' . $GLOBALS["post"] . "\n";
+?>
 <body <?php body_class(); ?>>
 
 <?php
