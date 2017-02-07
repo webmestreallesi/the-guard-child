@@ -114,12 +114,13 @@ body { margin : 0; padding : 0}
 	background-color:#009ee0;
 }
 /*end menu pages sidebar left*/
+
 /*centrer les headings sur la page*/
 .page .entry-content {
     margin:0;
 	padding:0;	
 }
-h1, h2 , h3, h4{
+h1, h2, h3, h4{
 	text-align:left;
 	padding-top: 0;
 }
