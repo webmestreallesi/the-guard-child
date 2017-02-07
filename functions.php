@@ -61,29 +61,3 @@ if ( ! function_exists( 'theguard_topbar_r' ) ) {
 /*FIN TOP BAR CUSTOMIZATION*/
 
 /*Sidebar customization*/
-	function theguard_set_header_sidebar_layout() {
-		global $secretlab, $theguard_layout;
-		$sl_sidebar_layout = isset($theguard_layout[$secretlab['theguard_pagetype_prefix'] . 'sidebar-layout']) ? $theguard_layout[$secretlab['theguard_pagetype_prefix'] . 'sidebar-layout'] : 1;
-		if ($sl_sidebar_layout == 2 or $sl_sidebar_layout == 3) {
-			echo '<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 widget-area">';
-			if ($secretlab['theguard_page_type'] == '') $prefix = ''; else $prefix = '_';
-			if (isset($theguard_layout[$secretlab['theguard_page_type'] . $prefix . 'left_sidebar_widgets'])) {
-				dynamic_sidebar($theguard_layout[$secretlab['theguard_page_type'] . $prefix . 'left_sidebar_widgets']);
-			} else {
-				dynamic_sidebar($secretlab['theguard_page_type'] . '_default_left_sidebar');
-			}
-			echo 'toto</div>';
-		}
-		if ($sl_sidebar_layout == 1) {
-			echo '<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 main">';
-		}
-		if ($sl_sidebar_layout == 2) {
-			echo '<div class="col-lg-6 col-md-6 col-sm-8 col-xs-12 pr40 pl40 main blogsidebarspage">';
-		}
-		if ($sl_sidebar_layout == 3) {
-			echo '<div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 pl40 main blogsidebarpage">';
-		}
-		if ($sl_sidebar_layout == 4) {
-			echo '<div class="col-lg-9 col-md-9 col-sm-6 col-xs-12 pr40 main blogsidebarpage">';
-		}
-	}
