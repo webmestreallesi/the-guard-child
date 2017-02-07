@@ -32,7 +32,7 @@ sell_set_globals();
 theguard_pageloader();
 theguard_set_boxed_layout();
 
-//get_template_part('header6');
+get_template_part('header6');
 
 ?>
 
@@ -45,7 +45,6 @@ theguard_set_boxed_layout();
             /* Sidebars Main */
 
             theguard_set_header_sidebar_layout_custom();
-			echo "toto";
 
             ?>
 
