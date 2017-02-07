@@ -69,8 +69,10 @@ function theguard_set_header_sidebar_layout_custom() {
 		echo '<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 widget-area">';
 		if ($secretlab['theguard_page_type'] == ''){
 			$prefix = '';
+			echo "titi";
 		}else{
 			$prefix = '_';
+			echo "tata";
 		}
 		if (isset($theguard_layout[$secretlab['theguard_page_type'] . $prefix . 'left_sidebar_widgets'])) {
 			dynamic_sidebar($theguard_layout[$secretlab['theguard_page_type'] . $prefix . 'left_sidebar_widgets']);
