@@ -20,18 +20,6 @@ License URI: http://themeforest.net/licenses/terms/regular
 
 /* YOU CAN PUT YOUR OWN CSS HERE */
 
-/*
-body { margin : 0; padding : 0}
-#stickymenu{ background-color:#fff;}
-.head_tr .sell_topbar{ background-color:inherit;color:#222222;}
-.darkform h3 {
-    color: rgba(32,189,255,1);
-    background-color: rgba(0,0,0,1);
-    margin: 0 -60px 30px -60px;
-    padding: 20px 15px 20px 15px;
-    text-align: center;
-}
-*/
 .shortheader1.head_line .sell_topbar .cdata {
     text-align: left;
 }
