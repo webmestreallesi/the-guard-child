@@ -36,10 +36,10 @@ sell_set_globals();
 <main>
 	<div class="container">
 		<div class="row">
-		<?php
-		theguard_set_header_sidebar_layout_custom();
-				
-		//GET CHILD PAGES IF THERE ARE ANY
+			<?php
+			theguard_set_header_sidebar_layout();
+			?>
+<?//GET CHILD PAGES IF THERE ARE ANY
 		$children = get_pages('child_of='.$post->ID);
 
 		//GET PARENT PAGE IF THERE IS ONE
@@ -67,12 +67,11 @@ sell_set_globals();
 		// and if it has children 
 		if(count($siblings) > 1 && !is_null($args))   
 		{
-		?>
+?>
 		<div class="widget subpages">
 		<h3 class="widgettitle">Also in this Section</h3>
 			 <ul class="pages-list">
 			 <?php wp_list_pages($args);  ?>
 			 </ul>
 		 </div>
-
 
