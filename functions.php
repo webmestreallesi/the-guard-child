@@ -127,7 +127,7 @@ function child_page_nav(){
 	if(count($siblings) > 1 && !is_null($args))   
 	{
 		echo '<div class="sidebar-left-list-pages">';
-				'<ul>';
+				'<ul class="sidebar-left-list-pages">';
 			wp_list_pages($args);
 		echo '	 </ul>';
 		echo ' </div>';
