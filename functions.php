@@ -75,6 +75,7 @@ function theguard_set_header_sidebar_layout_custom() {
 			echo "tata";
 		}
 		if (isset($theguard_layout[$secretlab['theguard_page_type'] . $prefix . 'left_sidebar_widgets'])) {
+			echo "tutu";
 			dynamic_sidebar($theguard_layout[$secretlab['theguard_page_type'] . $prefix . 'left_sidebar_widgets']);
 			//GET CHILD PAGES IF THERE ARE ANY
 			$children = get_pages('child_of='.$post->ID);
@@ -111,6 +112,7 @@ function theguard_set_header_sidebar_layout_custom() {
 				echo ' </div>';
 			}
 		} else {
+			echo "toto";
 			dynamic_sidebar($secretlab['theguard_page_type'] . '_default_left_sidebar');
 			//GET CHILD PAGES IF THERE ARE ANY
 			$children = get_pages('child_of='.$post->ID);
