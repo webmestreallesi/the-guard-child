@@ -66,14 +66,12 @@ function theguard_set_header_sidebar_layout_custom() {
 	global $secretlab, $theguard_layout;
 	$sl_sidebar_layout = isset($theguard_layout[$secretlab['theguard_pagetype_prefix'] . 'sidebar-layout']) ? $theguard_layout[$secretlab['theguard_pagetype_prefix'] . 'sidebar-layout'] : 1;
 	if ($sl_sidebar_layout == 2 or $sl_sidebar_layout == 3) {
-		echo '<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 widget-area">'.child_page_nav();
+		echo '<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 widget-area">';
 		if ($secretlab['theguard_page_type'] == '') $prefix = ''; else $prefix = '_';
 		if (isset($theguard_layout[$secretlab['theguard_page_type'] . $prefix . 'left_sidebar_widgets'])) {
 			dynamic_sidebar($theguard_layout[$secretlab['theguard_page_type'] . $prefix . 'left_sidebar_widgets']);
-			child_page_nav();
 		} else {
 			dynamic_sidebar($secretlab['theguard_page_type'] . '_default_left_sidebar');
-			child_page_nav();
 		}
 		echo '</div>';
 	}

@@ -38,5 +38,6 @@ sell_set_globals();
 		<div class="row">
 			<?php
 			theguard_set_header_sidebar_layout();
+			child_page_nav();
 			?>
 
