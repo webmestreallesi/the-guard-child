@@ -95,11 +95,9 @@ function theguard_set_header_sidebar_layout_custom() {
 }
 /*end Sidebar customization*/
 
-function child_page_nav(){
+function child_page_nav($post){
 	//GET CHILD PAGES IF THERE ARE ANY
-	//global $post;
-	$postID=$post->ID;
-	$children = get_pages('child_of='.$postID);
+	$children = get_pages('child_of='.$post);
 	
 	//GET PARENT PAGE IF THERE IS ONE
 	$parent = $post->post_parent;
@@ -111,14 +109,14 @@ function child_page_nav(){
 	   $args = array(
 		 'depth' => 1,
 		 'title_li' => '',
-		 'child_of' => $postID
+		 'child_of' => $post
 	   );
 
 	} elseif($parent != 0) {
 		$args = array(
 			 'depth' => 1,
 			 'title_li' => '',
-			 'exclude' => $postID,
+			 'exclude' => $post,
 			 'child_of' => $parent
 		   );
 	}
