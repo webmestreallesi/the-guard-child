@@ -3,7 +3,7 @@
 /**
  * The Header template for our theme
  */
- 
+
 sell_set_globals();
 ?>
 <!doctype html>
@@ -24,8 +24,7 @@ sell_set_globals();
 	?>
 </head>
 <?
-echo  "post courant :".$post;
-print_r(sell_set_globals());
+print_r(sell_set_globals());echo  "post courant :".$post;
 ?>
 <body <?php body_class(); ?>>
 
