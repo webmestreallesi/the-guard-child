@@ -78,13 +78,13 @@ function theguard_set_header_sidebar_layout2() {
 		echo '<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 main">';
 	}
 	if ($sl_sidebar_layout == 2) {
-		echo '<div class="col-lg-6 col-md-6 col-sm-8 col-xs-12 pr40 pl40 main blogsidebarspage">';
+		echo '<div class="col-lg-6 col-md-6 col-sm-8 col-xs-12 pr40 pl40 main blogsidebarspage">toto';
 	}
 	if ($sl_sidebar_layout == 3) {
-		echo '<div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 pl40 main blogsidebarpage">';
+		echo '<div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 pl40 main blogsidebarpage">titi';
 	}
 	if ($sl_sidebar_layout == 4) {
-		echo '<div class="col-lg-9 col-md-9 col-sm-6 col-xs-12 pr40 main blogsidebarpage">';
+		echo '<div class="col-lg-9 col-md-9 col-sm-6 col-xs-12 pr40 main blogsidebarpage">tata';
 	}
 
 }
