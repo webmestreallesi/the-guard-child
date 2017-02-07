@@ -69,17 +69,15 @@ function theguard_set_header_sidebar_layout_custom() {
 		echo '<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 widget-area">';
 		if ($secretlab['theguard_page_type'] == ''){
 			$prefix = '';
-			echo "titi";
 		}else{
 			$prefix = '_';
-			echo "tata";
 		}
 		if (isset($theguard_layout[$secretlab['theguard_page_type'] . $prefix . 'left_sidebar_widgets'])) {
 			echo "tutu";
 			dynamic_sidebar($theguard_layout[$secretlab['theguard_page_type'] . $prefix . 'left_sidebar_widgets']);
 			//GET CHILD PAGES IF THERE ARE ANY
 			$children = get_pages('child_of='.$post->ID);
-
+			echo $post->ID;
 			//GET PARENT PAGE IF THERE IS ONE
 			$parent = $post->post_parent;
 
