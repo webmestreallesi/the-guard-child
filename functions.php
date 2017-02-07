@@ -77,7 +77,7 @@ function theguard_set_header_sidebar_layout_custom() {
 			child_page_nav();
 		} else {
 			dynamic_sidebar($secretlab['theguard_page_type'] . '_default_left_sidebar');
-			child_page_nav()
+			child_page_nav();
 		}
 		echo '</div>';
 	}
