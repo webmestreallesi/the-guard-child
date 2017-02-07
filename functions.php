@@ -66,10 +66,11 @@ function theguard_set_header_sidebar_layout_custom() {
 	global $secretlab, $theguard_layout;
 	$sl_sidebar_layout = isset($theguard_layout[$secretlab['theguard_pagetype_prefix'] . 'sidebar-layout']) ? $theguard_layout[$secretlab['theguard_pagetype_prefix'] . 'sidebar-layout'] : 1;
 	if ($sl_sidebar_layout == 2 or $sl_sidebar_layout == 3) {
-		echo '<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 widget-area">defaut';
+		echo '<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 widget-area">';
 		if ($secretlab['theguard_page_type'] == '') $prefix = ''; else $prefix = '_';
 		if (isset($theguard_layout[$secretlab['theguard_page_type'] . $prefix . 'left_sidebar_widgets'])) {
 			dynamic_sidebar($theguard_layout[$secretlab['theguard_page_type'] . $prefix . 'left_sidebar_widgets']);
+			
 		} else {
 			dynamic_sidebar($secretlab['theguard_page_type'] . '_default_left_sidebar');
 		}
@@ -89,3 +90,30 @@ function theguard_set_header_sidebar_layout_custom() {
 	}
 }
 /*end Sidebar customization*/
+
+function child_pages_list(){
+    //GET CHILD PAGES IF THERE ARE ANY
+    $children = get_pages('child_of='.$post->ID);
+ 
+    //GET PARENT PAGE IF THERE IS ONE
+    $parent = $post->post_parent;
+ 
+    //DO WE HAVE SIBLINGS?
+    $siblings =  get_pages('child_of='.$parent);
+ 
+    if( count($children) != 0) {
+       $args = array(
+         'depth' => 1,
+         'title_li' => '',
+         'child_of' => $post->ID
+       );
+ 
+    } elseif($parent != 0) {
+        $args = array(
+             'depth' => 1,
+             'title_li' => '',
+             'exclude' => $post->ID,
+             'child_of' => $parent
+           );
+    }
+}
