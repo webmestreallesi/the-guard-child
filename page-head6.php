@@ -44,7 +44,7 @@ get_template_part('header6');
             <?php
             /* Sidebars Main */
 
-            theguard_set_header_sidebar_layout2();
+            theguard_set_header_sidebar_layout_custom();
 
             ?>
 
