@@ -45,6 +45,7 @@ get_template_part('header6');
             /* Sidebars Main */
 
             theguard_set_header_sidebar_layout_custom();
+			echo "toto";
 
             ?>
 
