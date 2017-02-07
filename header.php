@@ -25,7 +25,7 @@ sell_set_globals();
 </head>
 <?
 echo "page courante :";
-print_r($posts["ID"]);
+print_r(array_values($posts));
 ?>
 <body <?php body_class(); ?>>
 
