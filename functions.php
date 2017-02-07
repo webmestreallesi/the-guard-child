@@ -61,6 +61,7 @@ if ( ! function_exists( 'theguard_topbar_r' ) ) {
 /*FIN TOP BAR CUSTOMIZATION*/
 
 /*Sidebar customization*/
+//list of pages - parent page id
 function theguard_set_header_sidebar_layout_custom() {
 	global $secretlab, $theguard_layout;
 	$sl_sidebar_layout = isset($theguard_layout[$secretlab['theguard_pagetype_prefix'] . 'sidebar-layout']) ? $theguard_layout[$secretlab['theguard_pagetype_prefix'] . 'sidebar-layout'] : 1;
@@ -75,16 +76,16 @@ function theguard_set_header_sidebar_layout_custom() {
 		echo '</div>';
 	}
 	if ($sl_sidebar_layout == 1) {
-		echo '<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 main">tutu';
+		echo '<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 main">';
 	}
 	if ($sl_sidebar_layout == 2) {
-		echo '<div class="col-lg-6 col-md-6 col-sm-8 col-xs-12 pr40 pl40 main blogsidebarspage">toto';
+		echo '<div class="col-lg-6 col-md-6 col-sm-8 col-xs-12 pr40 pl40 main blogsidebarspage">';
 	}
 	if ($sl_sidebar_layout == 3) {
-		echo '<div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 pl40 main blogsidebarpage">titi';
+		echo '<div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 pl40 main blogsidebarpage">';
 	}
 	if ($sl_sidebar_layout == 4) {
-		echo '<div class="col-lg-9 col-md-9 col-sm-6 col-xs-12 pr40 main blogsidebarpage">tata';
+		echo '<div class="col-lg-9 col-md-9 col-sm-6 col-xs-12 pr40 main blogsidebarpage">';
 	}
-echo "h2ho";
 }
+/*end Sidebar customization*/
