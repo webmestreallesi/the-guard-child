@@ -29,11 +29,10 @@ sell_set_globals();
 <body <?php body_class(); ?>>
 
 <?php
-echo "wweeeee";
 theguard_pageloader();
 theguard_set_boxed_layout();
 
-get_template_part('header6');
+//get_template_part('header6');
 
 ?>
 
