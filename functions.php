@@ -90,30 +90,3 @@ function theguard_set_header_sidebar_layout_custom() {
 	}
 }
 /*end Sidebar customization*/
-
-function child_pages_list(){
-    //GET CHILD PAGES IF THERE ARE ANY
-    $children = get_pages('child_of='.$post->ID);
- 
-    //GET PARENT PAGE IF THERE IS ONE
-    $parent = $post->post_parent;
- 
-    //DO WE HAVE SIBLINGS?
-    $siblings =  get_pages('child_of='.$parent);
- 
-    if( count($children) != 0) {
-       $args = array(
-         'depth' => 1,
-         'title_li' => '',
-         'child_of' => $post->ID
-       );
- 
-    } elseif($parent != 0) {
-        $args = array(
-             'depth' => 1,
-             'title_li' => '',
-             'exclude' => $post->ID,
-             'child_of' => $parent
-           );
-    }
-}
