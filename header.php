@@ -5,7 +5,7 @@
  */
  
 sell_set_globals();
-
+print_r(sell_set_globals());
 ?>
 <!doctype html>
 <html <?php language_attributes(); ?> class="no-js">
@@ -24,7 +24,7 @@ sell_set_globals();
 		wp_head();
 	?>
 </head>
-
+<?echo  "post courant :".$post_ID; ?>
 <body <?php body_class(); ?>>
 
 <?php
