@@ -67,9 +67,8 @@ function theguard_set_header_sidebar_layout_custom() {
 	$sl_sidebar_layout = isset($theguard_layout[$secretlab['theguard_pagetype_prefix'] . 'sidebar-layout']) ? $theguard_layout[$secretlab['theguard_pagetype_prefix'] . 'sidebar-layout'] : 1;
 	if ($sl_sidebar_layout == 2 or $sl_sidebar_layout == 3) {
 		echo '<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 widget-area">';
-		if ($secretlab['theguard_page_type'] == ''){ $prefix = ''; echo "toto"; }else{ $prefix = '_'; echo "titi";}
+		if ($secretlab['theguard_page_type'] == '') $prefix = ''; else $prefix = '_';
 		if (isset($theguard_layout[$secretlab['theguard_page_type'] . $prefix . 'left_sidebar_widgets'])) {
-			echo "tata";
 			dynamic_sidebar($theguard_layout[$secretlab['theguard_page_type'] . $prefix . 'left_sidebar_widgets']);
 			//GET CHILD PAGES IF THERE ARE ANY
 			$children = get_pages('child_of='.$post->ID);
@@ -106,7 +105,6 @@ function theguard_set_header_sidebar_layout_custom() {
 				echo ' </div>';
 			}
 		} else {
-			echo "tutu";
 			dynamic_sidebar($secretlab['theguard_page_type'] . '_default_left_sidebar');
 			//GET CHILD PAGES IF THERE ARE ANY
 			$children = get_pages('child_of='.$post->ID);
@@ -157,7 +155,9 @@ function theguard_set_header_sidebar_layout_custom() {
 	if ($sl_sidebar_layout == 4) {
 		echo '<div class="col-lg-9 col-md-9 col-sm-6 col-xs-12 pr40 main blogsidebarpage">';
 	}
-	}
-	}
 }
 /*end Sidebar customization*/
+
+function child_page_nav(){
+
+}
