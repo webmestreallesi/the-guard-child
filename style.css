@@ -93,6 +93,9 @@ body { margin : 0; padding : 0}
 	padding:0 !important;
 	display:block;
 }
+.sidebar-left-list-pages .current_page_item > a {
+    font-weight: bold;
+}
 .sidebar-left-list-pages li.page-item-8097{
 	border:0;
 }
