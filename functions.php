@@ -79,6 +79,7 @@ function theguard_set_header_sidebar_layout_custom() {
 			
 			//GET PARENT PAGE IF THERE IS ONE
 			$parent = $post->post_parent;
+			echo $parent;
 
 			//DO WE HAVE SIBLINGS?
 			$siblings =  get_pages('child_of='.$parent);
