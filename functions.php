@@ -61,7 +61,6 @@ if ( ! function_exists( 'theguard_topbar_r' ) ) {
 /*FIN TOP BAR CUSTOMIZATION*/
 
 /*Sidebar customization*/
-if ( ! function_exists( 'theguard_set_header_sidebar_layout' ) ) {
 	function theguard_set_header_sidebar_layout() {
 		global $secretlab, $theguard_layout;
 		$sl_sidebar_layout = isset($theguard_layout[$secretlab['theguard_pagetype_prefix'] . 'sidebar-layout']) ? $theguard_layout[$secretlab['theguard_pagetype_prefix'] . 'sidebar-layout'] : 1;
@@ -88,4 +87,3 @@ if ( ! function_exists( 'theguard_set_header_sidebar_layout' ) ) {
 			echo '<div class="col-lg-9 col-md-9 col-sm-6 col-xs-12 pr40 main blogsidebarpage">';
 		}
 	}
-}
