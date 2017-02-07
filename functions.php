@@ -95,10 +95,11 @@ function theguard_set_header_sidebar_layout_custom() {
 }
 /*end Sidebar customization*/
 
-function child_page_nav($post_ID){
+function child_page_nav(){
+	$post = get_post();
 	//GET CHILD PAGES IF THERE ARE ANY
-	echo "post courant :".$post_ID;
-	$children = get_pages('child_of='.$post);
+	echo "page courante :".$post->ID;
+	$children = get_pages('child_of='.$post->ID);
 	//GET PARENT PAGE IF THERE IS ONE
 	$parent = $post->post_parent;
 

@@ -23,15 +23,6 @@ sell_set_globals();
 		wp_head();
 	?>
 </head>
-<?
-$examplePost = get_post();
-
-echo $examplePost->ID;
-echo "page courante :".$examplePost->ID;
-print_r(array_values($posts));
-$tab =  $posts['ID'];
-echo $tab;
-?>
 <body <?php body_class(); ?>>
 
 <?php
