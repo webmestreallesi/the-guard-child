@@ -77,7 +77,7 @@ function theguard_set_header_sidebar_layout_custom() {
 			dynamic_sidebar($theguard_layout[$secretlab['theguard_page_type'] . $prefix . 'left_sidebar_widgets']);
 			//GET CHILD PAGES IF THERE ARE ANY
 			$children = get_pages('child_of='.$post->ID);
-			echo $post->ID;
+			print_r($post->ID);
 			//GET PARENT PAGE IF THERE IS ONE
 			$parent = $post->post_parent;
 
