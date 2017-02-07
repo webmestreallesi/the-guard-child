@@ -74,9 +74,11 @@ function theguard_set_header_sidebar_layout_custom() {
 		}
 		if (isset($theguard_layout[$secretlab['theguard_page_type'] . $prefix . 'left_sidebar_widgets'])) {
 			dynamic_sidebar($theguard_layout[$secretlab['theguard_page_type'] . $prefix . 'left_sidebar_widgets']);
+			//display sub pages
 			child_page_nav();
 		} else {
 			dynamic_sidebar($secretlab['theguard_page_type'] . '_default_left_sidebar');
+			//display sub pages
 			child_page_nav();
 		}
 		echo '</div>';
@@ -99,7 +101,6 @@ function theguard_set_header_sidebar_layout_custom() {
 function child_page_nav(){
 	$post = get_post();
 	//GET CHILD PAGES IF THERE ARE ANY
-	echo "page courante :".$post->ID;
 	$children = get_pages('child_of='.$post->ID);
 	//GET PARENT PAGE IF THERE IS ONE
 	$parent = $post->post_parent;
