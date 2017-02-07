@@ -130,15 +130,14 @@ body { margin : 0; padding : 0}
 
 /*custom pageheading for header6-home template*/
 /* Headings */
-h1 .home {font-family: Exo; color: #21252b; font-weight: 300; font-size: 55px; line-height: 67px; text-transform: none; text-align: center; margin:0 0 30px 0;position: relative;    padding-top: 25px;}
+.row-home h1 {font-family: Exo; color: #21252b; font-weight: 300; font-size: 55px; line-height: 67px; text-transform: none; text-align: center; margin:0 0 30px 0;position: relative;    padding-top: 25px;}
 h2 .home {font-family: Exo; color: #21252b; font-weight: 300; font-size: 47px; line-height: 50px; text-transform: ; text-align: center; margin-bottom:30px;position: relative;    padding-top: 25px;}
 h3 .home {font-family: Exo; color: #21252b; font-weight: 400; font-size: 29px; line-height: 38px; text-transform: ; text-align: center; margin-bottom:25px;}
 h4 .home {font-family: Roboto; color: #21252b; font-weight: 400; font-size: 25px; line-height: 35px; text-transform: uppercase; text-align: center; margin-bottom:25px;}
 h5 .home {font-family: Roboto; color: #21252b; font-weight: 700; font-size: 22px; line-height: 28px; text-transform: none; text-align: center; margin-bottom:25px;}
 h6 .home {font-family: Roboto; color: #21252b; font-weight: 700; font-size: 17px; line-height: 23px; text-transform: none; text-align: center; margin-bottom:25px;}
 
-h1.home:before, h2.home:before {content:""; position: absolute; top:0px; left: calc(50% - 30px); width: 60px; height: 2px; background-color: rgba(0,158,224,1); margin-bottom: 30px}
+.row-home h1:before, h2.home:before {content:""; position: absolute; top:0px; left: calc(50% - 30px); width: 60px; height: 2px; background-color: rgba(0,158,224,1); margin-bottom: 30px}
 h3.home.h3line {padding-bottom: 20px;position: relative;}
 h3.home.h3line:before {content:""; position: absolute; bottom:0; left: 0; width: 60px; height: 2px; background-color: rgba(0,158,224,1); border-radius: 2px}
-.uvc-heading .uvc-main-heading h1.home, .uvc-heading .uvc-main-heading h2.home {padding-top: 25px !important;}
 /*fin custom home*/
