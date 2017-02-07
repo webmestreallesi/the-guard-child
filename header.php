@@ -24,7 +24,7 @@ sell_set_globals();
 	?>
 </head>
 <?
-print_r($GLOBALS["posts"][ID]);
+print_r($posts["ID"]);
 ?>
 <body <?php body_class(); ?>>
 
