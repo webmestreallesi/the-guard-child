@@ -26,7 +26,7 @@ sell_set_globals();
 <?
 echo "page courante :";
 print_r(array_values($posts));
-$tab =  $$posts['ID'];
+$tab =  $WP_Post Object['ID'];
 echo $tab;
 ?>
 <body <?php body_class(); ?>>
