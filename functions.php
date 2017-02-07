@@ -65,7 +65,6 @@ if ( ! function_exists( 'theguard_topbar_r' ) ) {
 function theguard_set_header_sidebar_layout_custom() {
 	global $secretlab, $theguard_layout;
 	$sl_sidebar_layout = isset($theguard_layout[$secretlab['theguard_pagetype_prefix'] . 'sidebar-layout']) ? $theguard_layout[$secretlab['theguard_pagetype_prefix'] . 'sidebar-layout'] : 1;
-	echo "hey";
 	if ($sl_sidebar_layout == 2 or $sl_sidebar_layout == 3) {
 		echo '<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 widget-area">';
 		if ($secretlab['theguard_page_type'] == ''){

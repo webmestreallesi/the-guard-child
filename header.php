@@ -37,6 +37,6 @@ sell_set_globals();
 	<div class="container">
 		<div class="row">
 			<?php
-			theguard_set_header_sidebar_layout();
+			theguard_set_header_sidebar_layout_custom();
 			?>
 
