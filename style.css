@@ -60,6 +60,7 @@ License URI: http://themeforest.net/licenses/terms/regular
 	background-color: rgba(255,255,255,0.85	);
 }
 /*menu pages sidebar left*/
+/*menu shop sidebar left*/
 .widget-area {
 	background-color:#fff;
 	border:1px solid #21252b;
@@ -69,11 +70,11 @@ License URI: http://themeforest.net/licenses/terms/regular
 .widget-area .widget{
 	margin:0;
 }
-.widget-area ul.sidebar-left-list-pages {
+.widget-area ul.sidebar-left-list-pages, .widget-area ul.widget_product_categories {
 	padding:0;
 	margin:0;
 }
-.sidebar-left-list-pages li{
+.sidebar-left-list-pages li, .widget_product_categories li{
 	border-bottom:1px dotted #21252b;
 	list-style: none;
 	line-height:2em !important;
@@ -81,30 +82,31 @@ License URI: http://themeforest.net/licenses/terms/regular
 	padding:0 !important;
 	display:block;
 }
-.sidebar-left-list-pages .current_page_item > a {
+.sidebar-left-list-pages .current_page_item > a, .widget_product_categories .current-cat > a {
     font-weight: bold;
 }
 .sidebar-left-list-pages li.page-item-8097{
 	border:0;
 }
-.sidebar-left-list-pages li:before {
+.sidebar-left-list-pages li:before, .widget_product_categories li:before {
     content: '' !important;
 	padding-right: 0 !important;
 }
-.sidebar-left-list-pages li a{
+.sidebar-left-list-pages li a, .widget_product_categories li a{
 	text-decoration:none;
 	color:#21252b;
 	padding:inherit;
 	display:block;
 	padding:10px;
 }
-.sidebar-left-list-pages li a:hover{
+.sidebar-left-list-pages li a:hover, .widget_product_categories li a:hover{
 	color: #fff;
 	display:block;
 	margin:0 !important;
 	background-color:#009ee0;
 }
 /*end menu pages sidebar left*/
+/*end menu shop sidebar left*/
 	
 /*centrer les headings sur la page*/
 /*for homepage see custom css in page settings*/
