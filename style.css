@@ -85,7 +85,7 @@ License URI: http://themeforest.net/licenses/terms/regular
 }
 .widget_product_categories ul.children li {
     list-style: none;
-    padding-left: 30px !important;
+    margin: 0 0 0 40px !important;
     padding-bottom: 0;
 }
 .sidebar-left-list-pages .current_page_item > a, .widget_product_categories .current-cat > a {
