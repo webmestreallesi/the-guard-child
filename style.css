@@ -74,12 +74,7 @@ License URI: http://themeforest.net/licenses/terms/regular
 	padding:0;
 	margin:0;
 }
-.widget_product_categories ul.children {
-    list-style: none;
-    margin: 0 0 0 -20px;
-    padding-left: 0;
-    padding-bottom: 0;
-}
+
 .sidebar-left-list-pages li, .widget_product_categories li{
 	border-bottom:1px dotted #21252b;
 	list-style: none;
@@ -87,6 +82,12 @@ License URI: http://themeforest.net/licenses/terms/regular
 	margin:0 !important;
 	padding:0 !important;
 	display:block;
+}
+.widget_product_categories ul.children li {
+    list-style: none;
+    margin: 0 0 0 -20px;
+    padding-left: 0;
+    padding-bottom: 0;
 }
 .sidebar-left-list-pages .current_page_item > a, .widget_product_categories .current-cat > a {
     font-weight: bold;
