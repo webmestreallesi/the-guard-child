@@ -125,9 +125,7 @@ h2{
     line-height: normal;
 }
 .uvc-heading .uvc-main-heading h3, .uvc-heading .uvc-main-heading h4, .uvc-heading .uvc-main-heading h5, .uvc-heading .uvc-main-heading h6 {
-    margin: 0;
     padding: 0 !important;
-    line-height: normal;
 }
 
 
