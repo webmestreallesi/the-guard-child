@@ -136,8 +136,12 @@ h2{
     padding: 0 !important;
 }
 
-
 h1:before, h2:before, h3:before {
     content: none;
 }
-/*fin centrer headings page*/
+/*fin centrer headings page*/7
+
+/*woocommerce order otpions*/
+.woocommerce-ordering .orderby {
+   display: none;
+}
