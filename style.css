@@ -142,6 +142,6 @@ h1:before, h2:before, h3:before {
 /*fin centrer headings page*/7
 
 /*woocommerce order otpions*/
-.woocommerce-ordering select {
+.woocommerce .woocommerce-ordering select {
    display: none;
 }
