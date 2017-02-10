@@ -154,11 +154,4 @@ function my_woocommerce_catalog_orderby( $orderby ) {
     return $orderby;
 }
 add_filter( "woocommerce_catalog_orderby", "my_woocommerce_catalog_orderby", 20 );
-print_r($orderby);
- function my_woocommerce_catalog_hide_orderby($orderby) {
-	$find = 'name="orderby" class="orderby"';
-    $replace = 'name="orderby" class="orderby" style="display:none;"';
-	$orderby = str_replace($find, $replace, $orderby);
-    return $orderby;
-}
-add_filter( "woocommerce_catalog_orderby", "my_woocommerce_catalog_hide_orderby", 21 );
+remove_action( "woocommerce_before_shop_loop", "woocommerce_catalog_ordering", 30 );
