@@ -87,7 +87,7 @@ License URI: http://themeforest.net/licenses/terms/regular
     list-style: none;
     margin: 0 0 0 40px !important;
     padding-bottom: 0;
-	border-bottom: 0;
+	border-bottom: 0 !important;
 }
 .sidebar-left-list-pages .current_page_item > a, .widget_product_categories .current-cat > a {
     font-weight: bold;
