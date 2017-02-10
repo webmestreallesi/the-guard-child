@@ -142,7 +142,7 @@ add_filter( 'woocommerce_product_tabs', 'wcs_woo_remove_reviews_tab', 98 );
 }
 /*woocommerce sort by customization*/
 // Edit WooCommerce dropdown menu item of shop page//
-// Options: menu_order, popularity, rating, date, price, price-desc
+// Options: menu_order, popularity, rating, date, price, price-desc	
 function my_woocommerce_catalog_orderby( $orderby ) {
     unset($orderby["price"]);
     unset($orderby["price-desc"]);
