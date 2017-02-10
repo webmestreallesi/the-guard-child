@@ -42,8 +42,7 @@
 						global $post, $product;
 						if ($secretlab['theguard_page_type'] == 'shop') {
 							$categ = $product->get_categories();
-							echo $categ;
-							the_title( '<h1>', '</h1>' );
+							echo '<h1>'.$categ.'</h1>';
 						}else{
 						?>
 						<h1><?php
