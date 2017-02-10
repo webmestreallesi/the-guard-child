@@ -144,6 +144,6 @@ h2.h2line:before {content:""; position: absolute; bottom:0; left: 0; width: 60px
 /*fin centrer headings page*/7
 
 /*woocommerce order otpions*/
-select.form-control, select, .select2-container a, .woocommerce .select2-container .select2-choice  {
+.orderby, .woocommerce .woocommerce-ordering select, select.form-control, select, .select2-container a, .woocommerce .select2-container .select2-choice  {
     display: none;
 }
