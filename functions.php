@@ -159,7 +159,7 @@ add_filter( "woocommerce_catalog_orderby", "my_woocommerce_catalog_orderby", 20 
 	$find = 'name="orderby" class="orderby"';
     $replace = 'name="orderby" class="orderby" style="display:none;"';
     $orderby = str_replace($find, $replace, $orderby);
-	echo $orderby;
+	print_($orderby);
     return $orderby;
 }
 add_filter( "woocommerce_catalog_orderby", "my_woocommerce_catalog_hide_orderby", 21 );
