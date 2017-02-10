@@ -41,8 +41,7 @@
 						global $secretlab;
 						if ($secretlab['theguard_page_type'] == 'shop') {
 							echo '<h1>shop</h1>';
-						else
-						{
+						}else{
 						?>
 						<h1><?php
                             echo get_the_title();
