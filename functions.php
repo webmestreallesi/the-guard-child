@@ -59,3 +59,99 @@ if ( ! function_exists( 'theguard_topbar_r' ) ) {
 }
 
 /*FIN TOP BAR CUSTOMIZATION*/
+
+/*Sidebar customization*/
+//list of pages - parent page id
+function theguard_set_header_sidebar_layout_custom() {
+	global $secretlab, $theguard_layout;
+	$sl_sidebar_layout = isset($theguard_layout[$secretlab['theguard_pagetype_prefix'] . 'sidebar-layout']) ? $theguard_layout[$secretlab['theguard_pagetype_prefix'] . 'sidebar-layout'] : 1;
+	if ($sl_sidebar_layout == 2 or $sl_sidebar_layout == 3) {
+		echo '<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 widget-area">';
+		if ($secretlab['theguard_page_type'] == ''){
+			$prefix = '';
+		}else{
+			$prefix = '_';
+		}
+		if (isset($theguard_layout[$secretlab['theguard_page_type'] . $prefix . 'left_sidebar_widgets'])) {
+			dynamic_sidebar($theguard_layout[$secretlab['theguard_page_type'] . $prefix . 'left_sidebar_widgets']);
+			//display sub pages
+			child_page_nav();
+		} else {
+			dynamic_sidebar($secretlab['theguard_page_type'] . '_default_left_sidebar');
+			//display sub pages
+			child_page_nav();
+		}
+		echo '</div>';
+	}
+	if ($sl_sidebar_layout == 1) {
+		echo '<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 main">';
+	}
+	if ($sl_sidebar_layout == 2) {
+		echo '<div class="col-lg-6 col-md-6 col-sm-8 col-xs-12 pr40 pl40 main blogsidebarspage">';
+	}
+	if ($sl_sidebar_layout == 3) {
+		echo '<div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 pl40 main blogsidebarpage">';
+	}
+	if ($sl_sidebar_layout == 4) {
+		echo '<div class="col-lg-9 col-md-9 col-sm-6 col-xs-12 pr40 main blogsidebarpage">';
+	}
+}
+/*end Sidebar customization*/
+
+function child_page_nav(){
+	$post = get_post();
+	//GET CHILD PAGES IF THERE ARE ANY
+	$children = get_pages('child_of='.$post->ID);
+	//GET PARENT PAGE IF THERE IS ONE
+	$parent = $post->post_parent;
+
+	//DO WE HAVE SIBLINGS?
+	$siblings =  get_pages('child_of='.$parent);
+
+	if( count($children) != 0) {
+	   $args = array(
+		 'depth' => 1,
+		 'title_li' => '',
+		 'child_of' => $post
+	   );
+
+	} elseif($parent != 0) {
+		$args = array(
+			 'depth' => 1,
+			 'title_li' => '',
+			 'child_of' => $parent
+		   );
+	}
+	//Show pages if this page has more than one sibling 
+	// and if it has children 
+	if(count($siblings) > 1 && !is_null($args))   
+	{
+		echo '<div class="sidebar-left-list-pages">';
+				'<ul>';
+			wp_list_pages($args);
+		echo '	 </ul>';
+		echo ' </div>';
+	}
+}
+
+/*woocmmerce desactivation des onglets*/
+add_filter( 'woocommerce_product_tabs', 'wcs_woo_remove_reviews_tab', 98 );
+    function wcs_woo_remove_reviews_tab($tabs) {
+    unset($tabs['reviews']);
+    return $tabs;
+}
+/*woocommerce sort by customization*/
+// Edit WooCommerce dropdown menu item of shop page//
+// Options: menu_order, popularity, rating, date, price, price-desc	
+function my_woocommerce_catalog_orderby( $orderby ) {
+    unset($orderby["price"]);
+    unset($orderby["price-desc"]);
+	unset($orderby["popularity"]);
+	unset($orderby["rating"]);
+	unset($orderby["date"]);
+	unset($orderby["menu_order"]);
+    return $orderby;
+}
+add_filter( "woocommerce_catalog_orderby", "my_woocommerce_catalog_orderby", 20 );
+//remove orderby block	
+remove_action( "woocommerce_before_shop_loop", "woocommerce_catalog_ordering", 30 );

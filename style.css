@@ -20,18 +20,6 @@ License URI: http://themeforest.net/licenses/terms/regular
 
 /* YOU CAN PUT YOUR OWN CSS HERE */
 
-/*
-body { margin : 0; padding : 0}
-#stickymenu{ background-color:#fff;}
-.head_tr .sell_topbar{ background-color:inherit;color:#222222;}
-.darkform h3 {
-    color: rgba(32,189,255,1);
-    background-color: rgba(0,0,0,1);
-    margin: 0 -60px 30px -60px;
-    padding: 20px 15px 20px 15px;
-    text-align: center;
-}
-*/
 .shortheader1.head_line .sell_topbar .cdata {
     text-align: left;
 }
@@ -72,20 +60,22 @@ body { margin : 0; padding : 0}
 	background-color: rgba(255,255,255,0.85	);
 }
 /*menu pages sidebar left*/
+/*menu shop sidebar left*/
 .widget-area {
 	background-color:#fff;
 	border:1px solid #21252b;
 	padding:0;
-	margin-bottom: 0;
+	margin:0 0 30px 0;
 }
 .widget-area .widget{
-	margin-bottom: 0;
+	margin:0;
 }
-.widget-area ul.sidebar-left-list-pages {
+.widget-area ul.sidebar-left-list-pages, .widget-area ul.widget_product_categories {
 	padding:0;
 	margin:0;
 }
-.sidebar-left-list-pages li{
+
+.sidebar-left-list-pages li, .widget_product_categories li{
 	border-bottom:1px dotted #21252b;
 	list-style: none;
 	line-height:2em !important;
@@ -93,24 +83,62 @@ body { margin : 0; padding : 0}
 	padding:0 !important;
 	display:block;
 }
+.widget_product_categories ul.children li {
+    list-style: none;
+    margin: 0 0 0 40px !important;
+    padding-bottom: 0;
+}
+.sidebar-left-list-pages .current_page_item > a, .widget_product_categories .current-cat > a {
+    font-weight: bold;
+}
 .sidebar-left-list-pages li.page-item-8097{
 	border:0;
 }
-.sidebar-left-list-pages li:before {
+.sidebar-left-list-pages li:before, .widget_product_categories li:before {
     content: '' !important;
 	padding-right: 0 !important;
 }
-.sidebar-left-list-pages li a{
+.sidebar-left-list-pages li a, .widget_product_categories li a{
 	text-decoration:none;
 	color:#21252b;
 	padding:inherit;
 	display:block;
 	padding:10px;
 }
-.sidebar-left-list-pages li a:hover{
+.sidebar-left-list-pages li a:hover, .widget_product_categories li a:hover{
 	color: #fff;
 	display:block;
 	margin:0 !important;
 	background-color:#009ee0;
 }
 /*end menu pages sidebar left*/
+/*end menu shop sidebar left*/
+	
+/*centrer les headings sur la page*/
+/*for homepage see custom css in page settings*/
+.page .entry-content {
+    margin:0;
+	padding:0;	
+}
+h1, h2, h3, h4{
+	text-align:left;
+}
+h2{
+	font-size: 36px;
+    line-height: 40px;
+}
+.uvc-heading .uvc-main-heading h1, .uvc-heading .uvc-main-heading h2, .uvc-heading .uvc-main-heading h3, .uvc-heading .uvc-main-heading h4, .uvc-heading .uvc-main-heading h5, .uvc-heading .uvc-main-heading h6 {
+    margin: 0;
+    padding: 0 0 20px 0 !important;
+    line-height: normal;
+}
+.uvc-heading .uvc-main-heading h3, .uvc-heading .uvc-main-heading h4, .uvc-heading .uvc-main-heading h5, .uvc-heading .uvc-main-heading h6 {
+    padding: 0 !important;
+}
+
+h1:before, h2:before, h3:before {
+    content: none;
+}
+h2.h2line {padding-bottom: 20px;position: relative;}
+h2.h2line:before {content:""; position: absolute; bottom:0; left: 0; width: 60px; height: 2px; background-color: rgba(0,158,224,1); border-radius: 2px}
+/*fin centrer headings page*/7
