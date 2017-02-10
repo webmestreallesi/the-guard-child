@@ -34,10 +34,10 @@
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <?
-						//si on est dans l a boutique
+						//si on est dans la boutique
 						// afficher le titre de la catégories ou du produit
 						//autrement afficher titre page
-						/*ici ajouter le title de la page woocommerce : catégorie ou produit*/
+						//ici ajouter le title de la page woocommerce : catégorie ou produit*/
 						global $secretlab;
 						global $post, $product;
 						if ($secretlab['theguard_page_type'] == 'shop') {
@@ -45,9 +45,10 @@
 							{
 								//on affiche le nom  de  la catégorie
 								$current_category = single_cat_title("", false);
-								echo '<h1>'.$current_category.'</h1>';
+								echo '<h1 itemprop="name" class="product_title entry-title">'.$current_category.'</h1>';
 							}else{
-								echo '<h1>'.$product->get_categories().'</h1>';
+								//on affiche le titre du produit
+								the_title( '<h1 itemprop="name" class="product_title entry-title">', '</h1>' );
 							}
 						}else{
 						?>
