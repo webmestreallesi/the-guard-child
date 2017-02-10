@@ -157,5 +157,6 @@ function my_woocommerce_catalog_orderby( $orderby ) {
 	$find = 'name="orderby" class="orderby"';
     $replace = 'name="orderby" class="orderby" style="display:none;"';
     $orderby = str_replace($find, $replace, $orderby);
+	echo $orderby;
     return $orderby;
 }
