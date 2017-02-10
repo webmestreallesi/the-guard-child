@@ -41,12 +41,13 @@
 						global $secretlab;
 						global $post, $product;
 						if ($secretlab['theguard_page_type'] == 'shop') {
-							if(($product->get_categories())&&( empty( $product )))
+							if(!empty($product->get_categories())&&( empty( $product )))
 							{
 								//on affiche le nom  de  la catégorie
 								echo '<h1>'.$categ.'</h1>';
 							}else{
 								echo '<h1>nom produit</h1>';
+								echo $product ;
 							}
 						}else{
 						?>
