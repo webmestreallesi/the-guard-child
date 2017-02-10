@@ -38,22 +38,17 @@
 						// afficher le titre de la catégories ou du produit
 						//autrement afficher titre page
 						/*ici ajouter le title de la page woocommerce : catégorie ou produit*/
-						$terms = get_the_terms( get_the_ID(), 'product_cat' );
-
-						foreach ($terms as $term) {
-
-							echo '<h1 itemprop="name" class="product-title entry-title">'.$term->name.'</h1>';
-						}
 						global $secretlab;
 						global $post, $product;
 						if ($secretlab['theguard_page_type'] == 'shop') {
-							if(!empty( $product ))
-							{
+							//if(!empty( $product ))
+							//{
 								//on affiche le nom  de  la catégorie
 								//echo '<h1>'.$product->get_categories().'</h1>';
-							}else{
-								//echo '<h1>nom produit</h1>';
-							}
+							//}else{
+								$current_category = single_cat_title("", false);
+								echo '<h1>'.$current_category.'</h1>';
+							//}
 						}else{
 						?>
 						<h1><?php
