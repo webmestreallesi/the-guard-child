@@ -38,9 +38,9 @@
 						// afficher le titre de la catégories ou du produit
 						//autrement afficher titre page
 						/*ici ajouter le title de la page woocommerce : catégorie ou produit*/
-						global $secretlab;
+						global $secretlab;	
 						if ($secretlab['theguard_page_type'] == 'shop') {
-							echo '<h1>shop</h1>';
+							the_title( '<h1>', '</h1>' );
 						}else{
 						?>
 						<h1><?php
