@@ -153,10 +153,9 @@ function my_woocommerce_catalog_orderby( $orderby ) {
 	unset($orderby["menu_order"]);
     return $orderby;
 }
-$woocommerce_content=woocommerce_content();
- function my_woocommerce_catalog_hide_orderby($woocommerce_content) {
+ function my_woocommerce_catalog_hide_orderby($orderby) {
 	$find = 'name="orderby" class="orderby"';
     $replace = 'name="orderby" class="orderby" style="display:none;"';
-    $woocommerce_content = str_replace($find, $replace, $woocommerce_content);
-    return $woocommerce_content;
+    $orderby = str_replace($find, $replace, $orderby);
+    return $orderby;
 }
