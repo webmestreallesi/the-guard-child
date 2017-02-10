@@ -28,7 +28,7 @@ sell_set_globals();
 <?php
 	theguard_pageloader();
     theguard_set_boxed_layout();
-	theguard_head_num();
+	//theguard_head_num();
 ?>
 
 <main>
