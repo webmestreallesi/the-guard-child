@@ -155,3 +155,6 @@ function my_woocommerce_catalog_orderby( $orderby ) {
 add_filter( "woocommerce_catalog_orderby", "my_woocommerce_catalog_orderby", 20 );
 //remove orderby block	
 remove_action( "woocommerce_before_shop_loop", "woocommerce_catalog_ordering", 30 );
+
+/*on affiche pas le titre de la page woocoremmerce*/
+apply_filters( 'woocommerce_show_page_title', true )
