@@ -41,7 +41,7 @@
 						global $secretlab;
 						global $post, $product;
 						if ($secretlab['theguard_page_type'] == 'shop') {
-							if(empty($product))
+							if(single_cat_title("", false))
 							{
 								//on affiche le nom  de  la catégorie
 								$current_category = single_cat_title("", false);
