@@ -157,4 +157,12 @@ add_filter( "woocommerce_catalog_orderby", "my_woocommerce_catalog_orderby", 20 
 remove_action( "woocommerce_before_shop_loop", "woocommerce_catalog_ordering", 30 );
 
 /*on affiche pas le titre de la page woocoremmerce*/
-apply_filters( 'woocommerce_show_page_title', false );
+add_filter( 'woocommerce_show_page_title' , 'woo_hide_page_title' );
+/**
+ * woo_hide_page_title
+ *
+ * Removes the "shop" title on the main shop page
+*/
+function woo_hide_page_title() {
+	return false;
+}
