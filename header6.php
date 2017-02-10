@@ -33,9 +33,22 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <h1><?php
+                        <?
+						//si on est dans l a boutique
+						// afficher le titre de la catégories ou du produit
+						//autrement afficher titre page
+						/*ici ajouter le title de la page woocommerce : catégorie ou produit*/
+						if ($secretlab['theguard_page_type'] == 'shop') {
+							the_title( '<h1>', '</h1>' );
+						else
+						{
+						?>
+						<h1><?php
                             echo get_the_title();
                             ?></h1>
+						<? 
+						} //fin affichage titre
+						?>
                         <div class="hidden-xs hidden-sm">
                             <div class="breadcrumbs" typeof="BreadcrumbList" vocab="http://schema.org/">
                                 <?php if ( function_exists('yoast_breadcrumb') )
