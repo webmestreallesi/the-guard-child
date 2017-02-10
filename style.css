@@ -145,5 +145,5 @@ h2.h2line:before {content:""; position: absolute; bottom:0; left: 0; width: 60px
 
 /*woocommerce order otpions*/
 .woocommerce .woocommerce-ordering select {
-    display: none;
+    display: none !important;
 }
