@@ -44,7 +44,7 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 	 */
 	echo '<div class="thelaw_cat_img_wrap">';
 	do_action( 'woocommerce_before_shop_loop_item_title' );
-	echo '<div class="prod_over">hhiii';
+	echo '<div class="prod_over">';
 
 	/**
 	 * woocommerce_shop_loop_item_title hook.

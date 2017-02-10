@@ -50,9 +50,9 @@
 							if(!empty( $product ))
 							{
 								//on affiche le nom  de  la catégorie
-								echo '<h1>'.$product->get_categories().'</h1>';
+								//echo '<h1>'.$product->get_categories().'</h1>';
 							}else{
-								echo '<h1>nom produit</h1>';
+								//echo '<h1>nom produit</h1>';
 							}
 						}else{
 						?>
