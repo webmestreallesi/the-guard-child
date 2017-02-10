@@ -45,7 +45,7 @@
 							{
 								//on affiche le nom  de  la catégorie
 								echo '<h1>'.$categ.'</h1>';
-							}else[
+							}else{
 								echo '<h1>nom produit</h1>';
 							}
 						}else{
