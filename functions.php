@@ -154,4 +154,5 @@ function my_woocommerce_catalog_orderby( $orderby ) {
     return $orderby;
 }
 add_filter( "woocommerce_catalog_orderby", "my_woocommerce_catalog_orderby", 20 );
+//remove orderbyblock
 remove_action( "woocommerce_before_shop_loop", "woocommerce_catalog_ordering", 30 );
