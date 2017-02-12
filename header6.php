@@ -50,7 +50,7 @@
 								//on affiche le titre du produit
 								the_title( '<h1 itemprop="name" class="product_title entry-title">', '</h1>' );
 							}
-							echo woocommerce_get_page_id( 'shop' );
+							echo woocommerce_get_page_title( 'shop' );
 						}else{
 						?>
 						<h1><?php
