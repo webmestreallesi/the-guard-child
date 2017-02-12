@@ -46,11 +46,13 @@
 								//on affiche le nom  de  la catégorie
 								$current_category = single_cat_title("", false);
 								echo '<h1 itemprop="name" class="product_title entry-title">'.$current_category.'</h1>';
-							}else{
+							}elseif((single_cat_title("", true))&&(the_title())){
 								//on affiche le titre du produit
 								the_title( '<h1 itemprop="name" class="product_title entry-title">', '</h1>' );
+							}else{
+								//on affiche le titre de la boutique
+								echo get_the_title();
 							}
-							echo woocommerce_get_page_id( 'shop' );
 						}else{
 						?>
 						<h1><?php
