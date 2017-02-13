@@ -23,7 +23,7 @@ License URI: http://themeforest.net/licenses/terms/regular
 	color:white;
 }
 /* Price box 5 orange */
-.sec_icon_2_orange .vc_column-inner {text-align: center; border:1px #e8e9f0 solid;-webkit-transition: all 500ms; transition: all 500ms;border-radius: 8px;}
+.sec_icon_2_orange .vc_column-inner {text-align: center; border:1px #fff solid;-webkit-transition: all 500ms; transition: all 500ms;border-radius: 8px;}
 .sec_icon_2_orange h5 {}
 .sec_icon_2_orange .wpb_text_column {}
 .sec_icon_2_orange .aio-icon {}
