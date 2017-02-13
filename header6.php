@@ -51,7 +51,7 @@
 								the_title( '<h1 itemprop="name" class="product_title entry-title">', '</h1>' );
 							}else{
 								//on affiche le titre de la boutique
-								echo get_the_title();
+								echo woocommerce_page_title();
 							}
 						}else{
 						?>
