@@ -22,6 +22,7 @@ License URI: http://themeforest.net/licenses/terms/regular
 .texte-blanc p{
 	color:white;
 }
+
 .shortheader1.head_line .sell_topbar .cdata {
     text-align: left;
 }
@@ -142,6 +143,9 @@ h2{
 h1:before, h2:before, h3:before {
     content: none;
 }
-h2.h2line {padding-bottom: 20px;position: relative;}
-h2.h2line:before {content:""; position: absolute; bottom:0; left: 0; width: 60px; height: 2px; background-color: rgba(0,158,224,1); border-radius: 2px}
+h2.h2line, h3.h3lineOrange {padding-bottom: 20px;position: relative;}
+h2.h2line:before, h3.h3lineOrange {content:""; position: absolute; bottom:0; left: 0; width: 60px; height: 2px; background-color: rgba(0,158,224,1); border-radius: 2px}
+h3.h3lineOrange {background-color:#f4823a;}
+h3.h3lineOrange:before {background-color:#f4823a;}
 /*fin centrer headings page*/7
+
