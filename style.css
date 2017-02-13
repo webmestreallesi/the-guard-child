@@ -41,18 +41,18 @@ License URI: http://themeforest.net/licenses/terms/regular
 .sec_icon_2_orange:hover .btn-pricebox button:before {font-size: 0}
 /**/
 /* Price box 5 black */
-..sec_icon_2_gris_c .vc_column-inner {text-align: center; border:1px #fff solid;-webkit-transition: all 500ms; transition: all 500ms;border-radius: 8px;}
-..sec_icon_2_gris_c h5 {}
-..sec_icon_2_gris_c .wpb_text_column {}
-..sec_icon_2_gris_c .aio-icon {}
-..sec_icon_2_gris_c:hover .vc_column-inner {border-color: #fff; background-color: #9C9D9F !important}
-..sec_icon_2_gris_c:hover h5 {color:#FFF}
-..sec_icon_2_gris_c:hover .wpb_text_column {color:#fff; text-align: center}
-..sec_icon_2_gris_c:hover .aio-icon {color: #fff !important;}
-..sec_icon_2_gris_c .btn-pricebox button {background-color: transparent !important; color:rgba(0,158,224,1) !important; font-size: 0; text-transform: uppercase; text-align: center; border-color: transparent !important;background-image: none;  -ms-filter: none; -webkit-filter: none; filter: none; font-weight: 700}
-..sec_icon_2_gris_c .btn-pricebox button:before {content: "\f061"; font-family: 'FontAwesome'; font-size: 15px; }
-..sec_icon_2_gris_c:hover .btn-pricebox button { font-size: 11px; background-color: #9C9D9F !important}
-..sec_icon_2_gris_c:hover .btn-pricebox button:before {font-size: 0}
+.sec_icon_2_gris_c .vc_column-inner {text-align: center; border:1px #fff solid;-webkit-transition: all 500ms; transition: all 500ms;border-radius: 8px;}
+.sec_icon_2_gris_c h5 {}
+.sec_icon_2_gris_c .wpb_text_column {}
+.sec_icon_2_gris_c .aio-icon {}
+.sec_icon_2_gris_c:hover .vc_column-inner {border-color: #fff; background-color: #9C9D9F !important}
+.sec_icon_2_gris_c:hover h5 {color:#FFF}
+.sec_icon_2_gris_c:hover .wpb_text_column {color:#fff; text-align: center}
+.sec_icon_2_gris_c:hover .aio-icon {color: #fff !important;}
+.sec_icon_2_gris_c .btn-pricebox button {background-color: transparent !important; color:rgba(0,158,224,1) !important; font-size: 0; text-transform: uppercase; text-align: center; border-color: transparent !important;background-image: none;  -ms-filter: none; -webkit-filter: none; filter: none; font-weight: 700}
+.sec_icon_2_gris_c .btn-pricebox button:before {content: "\f061"; font-family: 'FontAwesome'; font-size: 15px; }
+.sec_icon_2_gris_c:hover .btn-pricebox button { font-size: 11px; background-color: #9C9D9F !important}
+.sec_icon_2_gris_c:hover .btn-pricebox button:before {font-size: 0}
 /**/
 /* Price box 5 gris foncé */
 .sec_icon_2_gris_f .vc_column-inner {text-align: center; border:1px #e8e9f0 solid;-webkit-transition: all 500ms; transition: all 500ms;border-radius: 8px;}
