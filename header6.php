@@ -53,7 +53,7 @@
 								}
 							}else{
 								//on affiche le titre de la boutique
-								echo woocommerce_page_title();
+								echo '<h1 itemprop="name" class="product_title entry-title">'.the_title().'</h1>';
 							}
 						}else{
 						?>
