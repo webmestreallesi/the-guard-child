@@ -27,14 +27,28 @@ License URI: http://themeforest.net/licenses/terms/regular
 .sec_icon_2_orange h5 {}
 .sec_icon_2_orange .wpb_text_column {}
 .sec_icon_2_orange .aio-icon {}
-.sec_icon_2_orange:hover .vc_column-inner {border-color: rgba(0,158,224,1); background-color: #f4823a !important}
+.sec_icon_2_orange:hover .vc_column-inner {border-color: #2b384f; background-color: #f4823a !important}
 .sec_icon_2_orange:hover h5 {color:#FFF}
-.sec_icon_2_orange:hover .wpb_text_column {color:#FFF; text-align: center}
+.sec_icon_2_orange:hover .wpb_text_column {color:#000; text-align: center}
 .sec_icon_2_orange:hover .aio-icon {color: rgba(45,45,53,1) !important;}
-.sec_icon_2_orange .btn-pricebox button {background-color: transparent !important; color:rgba(0,158,224,1) !important; font-size: 0; text-transform: uppercase; text-align: center; border-color: transparent !important;background-image: none;  -ms-filter: none; -webkit-filter: none; filter: none; font-weight: 700}
+.sec_icon_2_orange .btn-pricebox button {background-color: transparent !important; color:#2b384f !important; font-size: 0; text-transform: uppercase; text-align: center; border-color: transparent !important;background-image: none;  -ms-filter: none; -webkit-filter: none; filter: none; font-weight: 700}
 .sec_icon_2_orange .btn-pricebox button:before {content: "\f061"; font-family: 'FontAwesome'; font-size: 15px; }
 .sec_icon_2_orange:hover .btn-pricebox button { font-size: 11px; background-color: #FFF !important}
 .sec_icon_2_orange:hover .btn-pricebox button:before {font-size: 0}
+/**/
+/* Price box 5 gris foncé */
+.sec_icon_2_gris_f .vc_column-inner {text-align: center; border:1px #e8e9f0 solid;-webkit-transition: all 500ms; transition: all 500ms;border-radius: 8px; padding-top: 60px}
+.sec_icon_2_gris_f h5 {}
+.sec_icon_2_gris_f .wpb_text_column {}
+.sec_icon_2_gris_f .aio-icon {}
+.sec_icon_2_gris_f:hover .vc_column-inner {border-color: #fff; background-color: #2b384f !important}
+.sec_icon_2_gris_f:hover h5 {color:#FFF}
+.sec_icon_2_gris_f:hover .wpb_text_column {color:#FFF; text-align: center}
+.sec_icon_2_gris_f:hover .aio-icon {color: rgba(45,45,53,1) !important;}
+.sec_icon_2_gris_f .btn-pricebox button {background-color: transparent !important; color:rgba(0,158,224,1) !important; font-size: 0; text-transform: uppercase; text-align: center; border-color: transparent !important;background-image: none;  -ms-filter: none; -webkit-filter: none; filter: none; font-weight: 700}
+.sec_icon_2_gris_f .btn-pricebox button:before {content: "\f061"; font-family: 'FontAwesome'; font-size: 15px; }
+.sec_icon_2_gris_f:hover .btn-pricebox button { font-size: 11px; background-color: #FFF !important}
+.sec_icon_2_gris_f:hover .btn-pricebox button:before {font-size: 0}
 /**/
 .shortheader1.head_line .sell_topbar .cdata {
     text-align: left;
