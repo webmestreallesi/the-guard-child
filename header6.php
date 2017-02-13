@@ -53,7 +53,7 @@
 								}
 							}else{
 								//on affiche le titre de la boutique
-								echo 'tototo';
+								echo woocommerce_page_title();
 							}
 						}else{
 						?>
