@@ -19,7 +19,9 @@ License URI: http://themeforest.net/licenses/terms/regular
 
 
 /* YOU CAN PUT YOUR OWN CSS HERE */
-
+.texte-blanc{
+	color:white;
+}
 .shortheader1.head_line .sell_topbar .cdata {
     text-align: left;
 }
