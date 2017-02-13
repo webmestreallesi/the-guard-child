@@ -53,7 +53,7 @@
 								}
 							}else{
 								//on affiche le titre de la boutique
-								echo '<h1 itemprop="name" class="product_title entry-title">'.get_the_title().'</h1>';
+								echo '<h1 itemprop="name" class="product_title entry-title">'.wp_title().'</h1>';
 							}
 						}else{
 						?>
