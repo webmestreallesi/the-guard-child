@@ -65,10 +65,10 @@ License URI: http://themeforest.net/licenses/terms/regular
 
 .shortheader1.head_line .sell_topbar .languages ul .lang-item, .shortheader1.head_line .sell_topbar #menu-espace-client-top .menu-item {
     list-style: none;
-	 color: rgba(144,145,156,1);
+	color: rgba(144,145,156,1);
 }
 .shortheader1.head_line .sell_topbar .languages ul .lang-item a, .shortheader1.head_line .sell_topbar #menu-espace-client-top .menu-item a {
-    color: rgba(144,145,156,1);
+    color: #606A7B;
 	font-weight: bold;
 	margin: 2px 0 0 0;
 	padding-top:2px;
