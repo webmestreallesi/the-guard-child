@@ -166,3 +166,10 @@ remove_action( "woocommerce_before_shop_loop", "woocommerce_catalog_ordering", 3
 function woo_hide_page_title() {
 	return false;
 }
+//affichage du titre de la page d'accueil de la boutique
+add_filter( 'woocommerce_page_title', 'woo_shop_page_title');
+function woo_shop_page_title( $page_title ) {
+  if( 'Shop' == $page_title) {
+			   return "My new title";
+	 }
+}
