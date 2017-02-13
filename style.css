@@ -50,6 +50,10 @@ License URI: http://themeforest.net/licenses/terms/regular
 .sec_icon_2_gris_f:hover .btn-pricebox button { font-size: 11px; background-color: #FFF !important}
 .sec_icon_2_gris_f:hover .btn-pricebox button:before {font-size: 0}
 /**/
+.sell_topbar{
+	background-color:rgba(45,45,53,0.65);
+	color:#e3e3e5;
+}
 .shortheader1.head_line .sell_topbar .cdata {
     text-align: left;
 }
@@ -62,10 +66,7 @@ License URI: http://themeforest.net/licenses/terms/regular
 	margin:0;
 	padding:0;
 }
-.sell_topbar{
-	background-color:#ccc;
-	color:#e3e3e5;
-}
+
 .shortheader1.head_line .sell_topbar .languages ul .lang-item, .shortheader1.head_line .sell_topbar #menu-espace-client-top .menu-item {
     list-style: none;
 	color: #e3e3e5;
