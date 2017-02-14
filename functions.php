@@ -109,15 +109,15 @@ function child_page_nav(){
 	$siblings =  get_pages('child_of='.$parent);
 
 	if( count($children) != 0) {
-	   $args = array(
+	   $argsChild = array(
 		 'depth' => 1,
 		 'title_li' => '',
 		 'child_of' => $post
 	   );
 
-	} elseif($parent != 0) {
+	}elseif($parent != 0) {
 		echo 'enfants';
-		$args = array(
+		$argsParents = array(
 			 'depth' => 2,
 			 'title_li' => '',
 			 'child_of' => $parent
@@ -125,11 +125,11 @@ function child_page_nav(){
 	}
 	//Show pages if this page has more than one sibling 
 	// and if it has children 
-	if(count($siblings) > 1 && !is_null($args))   
+	if(!is_null($argsChild))   
 	{
 		echo '<div class="sidebar-left-list-pages">';
 				'<ul>';
-			wp_list_pages($args);
+			wp_list_pages($argsChild);
 		echo '	 </ul>';
 		echo ' </div>';
 	}
