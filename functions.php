@@ -116,8 +116,9 @@ function child_page_nav(){
 	   );
 
 	} elseif($parent != 0) {
+		echo 'enfants';
 		$args = array(
-			 'depth' => 1,
+			 'depth' => 2,
 			 'title_li' => '',
 			 'child_of' => $parent
 		   );
