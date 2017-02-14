@@ -205,3 +205,8 @@ h2.h2line, h3.h3line, h3.h3lineOrange {padding-bottom: 20px;position: relative;}
 h2.h2line:before, h3.h3lineOrange:before {content:""; position: absolute; bottom:0; left: 0; width: 60px; height: 2px; background-color: rgba(0,158,224,1); border-radius: 2px}
 h3.h3lineOrange:before {background-color:#f4823a;}
 /*fin centrer headings page*/
+
+/*FORM & INPUT*/
+/* Inputs for white bgr */
+input[type=text], input[type=tel], input[type=email], input[type=password], input[type=url], textarea, textarea.form-control, input[type=search] {border:2px rgba(228,232,241,1) solid;color: #2d2d35; background-color: #f8f8f8; font-size:17px; padding:0 20px; line-height: 50px;  display: block;   border-radius:0; width: 100%; max-width: 100%; box-sizing: border-box;font-family: Roboto;}
+
