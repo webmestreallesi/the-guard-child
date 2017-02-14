@@ -71,8 +71,8 @@ License URI: http://themeforest.net/licenses/terms/regular
 /**/
 
 /**price table 4 button*/
-.ult_design_4.pricetable4 .ult_pricing_table .ult_price_link { padding-top: 15px;}
-.pricetable4 .ult_pricing_heading h3{min-height:66px;text-align:center;}
+.pricetable4 .ult_pricing_table .ult_price_link { padding-top: 15px !important;}
+.pricetable4 .ult_pricing_heading h3{min-height:66px;text-align:center;	}
 /**/
 .sell_topbar{
 	background-color:#3C3C46;
