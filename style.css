@@ -72,7 +72,7 @@ License URI: http://themeforest.net/licenses/terms/regular
 
 /**price table 4 button*/
 .ult_design_4.pricetable4 .ult_pricing_table .ult_price_link { padding-top: 15px;}
-
+.pricetable4 .ult_pricing_heading h3{min-height:66px;text-align:center;}
 /**/
 .sell_topbar{
 	background-color:#3C3C46;
@@ -202,8 +202,3 @@ h2.h2line, h3.h3line, h3.h3lineOrange {padding-bottom: 20px;position: relative;}
 h2.h2line:before, h3.h3lineOrange:before {content:""; position: absolute; bottom:0; left: 0; width: 60px; height: 2px; background-color: rgba(0,158,224,1); border-radius: 2px}
 h3.h3lineOrange:before {background-color:#f4823a;}
 /*fin centrer headings page*/
-/*price tab layout*/
-.ult_pricing_heading h3{
-	text-align:center;
-}
-/**/
