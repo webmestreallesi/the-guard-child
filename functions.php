@@ -101,21 +101,22 @@ function theguard_set_header_sidebar_layout_custom() {
 function child_page_nav(){
 	$post = get_post();
 	//GET CHILD PAGES IF THERE ARE ANY
-	$children = get_pages('child_of='.$post->ID);
+	//$children = get_pages('child_of='.$post->ID);
 	//GET PARENT PAGE IF THERE IS ONE
 	$parent = $post->post_parent;
 
 	//DO WE HAVE SIBLINGS?
 	$siblings =  get_pages('child_of='.$parent);
-
+	/*
 	if( count($children) != 0) {
-	   $argsChild = array(
+		$argsChild = array(
 		 'depth' => 1,
 		 'title_li' => '',
 		 'child_of' => $post
-	   );
-
-	}elseif($parent != 0) {
+		);
+	}
+	*/
+	if($parent != 0) {
 		$argsParent = array(
 			 'depth' => 2,
 			 'title_li' => '',
@@ -124,6 +125,7 @@ function child_page_nav(){
 	}
 	//Show pages if this page has more than one sibling 
 	// and if it has children 
+	/*
 	if(!is_null($argsChild))   
 	{
 		echo '<div class="sidebar-left-list-pages">';
@@ -132,7 +134,7 @@ function child_page_nav(){
 		echo '	 </ul>';
 		echo ' </div>';
 	}
-	/*
+	*/
 	if(!is_null($argsParent))   
 	{
 		echo '<div class="sidebar-left-list-pages">';
@@ -141,7 +143,6 @@ function child_page_nav(){
 		echo '	 </ul>';
 		echo ' </div>';
 	}
-	*/
 }
 
 /*woocmmerce desactivation des onglets*/
