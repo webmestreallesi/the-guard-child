@@ -209,4 +209,4 @@ h3.h3lineOrange:before {background-color:#f4823a;}
 /*FORM & INPUT*/
 /* Inputs for white bgr */
 input[type=text], input[type=tel], input[type=email], input[type=password], input[type=url], textarea, textarea.form-control, input[type=search] {background-color: #f8f8f8;}
-main input[type=submit]{padding-bottom:20px;}
+main input[type=submit]{margin-bottom: 20px !important;}
