@@ -116,7 +116,6 @@ function child_page_nav(){
 	   );
 
 	}elseif($parent != 0) {
-		echo 'enfants';
 		$argsParent = array(
 			 'depth' => 2,
 			 'title_li' => '',
@@ -125,7 +124,7 @@ function child_page_nav(){
 	}
 	//Show pages if this page has more than one sibling 
 	// and if it has children 
-	/*if(!is_null($argsChild))   
+	if(!is_null($argsChild))   
 	{
 		echo '<div class="sidebar-left-list-pages">';
 				'<ul>';
@@ -133,7 +132,7 @@ function child_page_nav(){
 		echo '	 </ul>';
 		echo ' </div>';
 	}
-	*/
+	/*
 	if(!is_null($argsParent))   
 	{
 		echo '<div class="sidebar-left-list-pages">';
@@ -142,6 +141,7 @@ function child_page_nav(){
 		echo '	 </ul>';
 		echo ' </div>';
 	}
+	*/
 }
 
 /*woocmmerce desactivation des onglets*/
