@@ -69,6 +69,11 @@ License URI: http://themeforest.net/licenses/terms/regular
 .sec_icon_2_gris_f:hover .btn-pricebox button { font-size: 11px; background-color: #FFF !important}
 .sec_icon_2_gris_f:hover .btn-pricebox button:before {font-size: 0}
 /**/
+
+/**price table 4 button*/
+.ult_design_4.pricetable4 .ult_pricing_table .ult_price_link { padding-top: 15px;}
+
+/**/
 .sell_topbar{
 	background-color:#3C3C46;
 	color:#e3e3e5;
