@@ -117,7 +117,7 @@ function child_page_nav(){
 
 	}elseif($parent != 0) {
 		echo 'enfants';
-		$argsParents = array(
+		$argsParent = array(
 			 'depth' => 2,
 			 'title_li' => '',
 			 'child_of' => $parent
@@ -130,6 +130,14 @@ function child_page_nav(){
 		echo '<div class="sidebar-left-list-pages">';
 				'<ul>';
 			wp_list_pages($argsChild);
+		echo '	 </ul>';
+		echo ' </div>';
+	}
+	if(!is_null($argsParent))   
+	{
+		echo '<div class="sidebar-left-list-pages">';
+				'<ul>';
+			wp_list_pages($argsParent);
 		echo '	 </ul>';
 		echo ' </div>';
 	}
