@@ -118,7 +118,7 @@ function child_page_nav(){
 	*/
 	if($parent != 0) {
 		$argsParent = array(
-			 'depth' => 2,
+			 'depth' => 1,
 			 'title_li' => '',
 			 'child_of' => $parent
 		   );
