@@ -36,7 +36,10 @@ if ( ! function_exists( 'theguard_topbar_r' ) ) {
 				<div class="col-md-2 col-sm-12 col-xs-12 languages">';
 					//call language switcher polylang
 					echo '<ul>';
+					//Quand les pages en anglais auront été reprise dans le nouveau thème :
 					pll_the_languages(array('show_flags'=>1,'show_names'=>1, 'hide_current'=>1, 'dropdown'=>0));
+					//Pour le lancement du site
+					echo '<li class="lang-item lang-item-39 lang-item-en-ca lang-item-first"><a lang="en-CA" hreflang="en-CA" href="http://www.allesi.ca/en-ca/allesi-telecom-security-telephony-internet-security-cabling/"><img src="http://www.allesi.ca/wp-content/polylang/en_CA.png" title="English" alt="English"><span style="margin-left:0.3em;">English</span></a></li>';
 					echo '</ul>';
 				echo '</div>
 				<div class="col-md-2 col-sm-12 col-xs-12 languages">';
