@@ -205,7 +205,7 @@ h1:before, h2:before, h3:before {
     content: none;
 }
 */
-h2.h2line, h3.h3line, h3.h3lineOrange {padding-top: 20px;}
+h2.h2line, h3.h3line, h3.h3lineOrange {padding-bottom: 20px;}
 h2.h2line:before, h3.h3lineOrange:before {content:""; position: relative; bottom:0; left: 0; width: 60px; height: 2px; background-color: rgba(0,158,224,1); border-radius: 2px}
 h3.h3lineOrange:before {background-color:#f4823a;}
 /*fin centrer headings page*/
