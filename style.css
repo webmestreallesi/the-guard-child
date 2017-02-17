@@ -75,7 +75,7 @@ License URI: http://themeforest.net/licenses/terms/regular
 .pricetable4 .ult_pricing_heading h3{min-height:66px;text-align:center;	}
 /**/
 /**flipbox element**/
-.ifb-front h3, p{
+.ifb-front h3, .ifb-front p{
     text-align:center;
 }
 .ifb-back h3{
