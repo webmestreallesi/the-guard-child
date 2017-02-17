@@ -41,7 +41,7 @@ License URI: http://themeforest.net/licenses/terms/regular
 .sec_icon_2_orange:hover .btn-pricebox button { font-size: 11px; background-color: #FFF !important}
 .sec_icon_2_orange:hover .btn-pricebox button:before {font-size: 0}
 /**/
-/* Price box 5 indigo */
+/* Price box 5 black */
 .sec_icon_2_gris_c .vc_column-inner {text-align: center; border:1px #fff solid;-webkit-transition: all 500ms; transition: all 500ms;border-radius: 8px;}
 .sec_icon_2_gris_c h5 {}
 .sec_icon_2_gris_c .wpb_text_column {}
@@ -73,6 +73,14 @@ License URI: http://themeforest.net/licenses/terms/regular
 /**price table 4 button*/
 .pricetable4 .ult_pricing_table .ult_price_link { padding-top: 15px !important;}
 .pricetable4 .ult_pricing_heading h3{min-height:66px;text-align:center;	}
+/**/
+/**flipbox element**/
+.ifb-front h3, p{
+    text-align:center;
+}
+.ifb-back h3{
+   color:#3c3c46;
+}
 /**/
 .sell_topbar{
 	background-color:#3C3C46;
@@ -182,9 +190,6 @@ License URI: http://themeforest.net/licenses/terms/regular
     margin:0;
 	padding:0;	
 }
-.pageheading h1, .single .pageheading h1{
-	text-transform:none;
-}	
 h1, h2, h3, h4{
 	text-align:left;
 }
@@ -200,11 +205,10 @@ h2{
 .uvc-heading .uvc-main-heading h3, .uvc-heading .uvc-main-heading h4, .uvc-heading .uvc-main-heading h5, .uvc-heading .uvc-main-heading h6 {
     padding: 0 !important;
 }
-/*
+
 h1:before, h2:before, h3:before {
     content: none;
 }
-*/
 h2.h2line, h3.h3line, h3.h3lineOrange {padding-bottom: 20px;position: relative;}
 h2.h2line:before, h3.h3lineOrange:before {content:""; position: absolute; bottom:0; left: 0; width: 60px; height: 2px; background-color: rgba(0,158,224,1); border-radius: 2px}
 h3.h3lineOrange:before {background-color:#f4823a;}
