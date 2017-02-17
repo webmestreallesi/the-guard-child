@@ -36,7 +36,10 @@ if ( ! function_exists( 'theguard_topbar_r' ) ) {
 				<div class="col-md-2 col-sm-12 col-xs-12 languages">';
 					//call language switcher polylang
 					echo '<ul>';
-					pll_the_languages(array('show_flags'=>1,'show_names'=>1, 'hide_current'=>1, 'dropdown'=>0));
+					//Quand les pages en anglais auront été reprise dans le nouveau thème :
+					//pll_the_languages(array('show_flags'=>1,'show_names'=>1, 'hide_current'=>1, 'dropdown'=>0));
+					//Pour le lancement du site
+					echo '<li class="lang-item lang-item-39 lang-item-en-ca lang-item-first"><a lang="en-CA" hreflang="en-CA" href="http://www.allesi.ca/en/"><img src="'.home_url().'/wp-content/polylang/en_CA.png" title="English" alt="English"><span style="margin-left:0.3em;">English</span></a></li>';
 					echo '</ul>';
 				echo '</div>
 				<div class="col-md-2 col-sm-12 col-xs-12 languages">';
@@ -101,22 +104,23 @@ function theguard_set_header_sidebar_layout_custom() {
 function child_page_nav(){
 	$post = get_post();
 	//GET CHILD PAGES IF THERE ARE ANY
-	$children = get_pages('child_of='.$post->ID);
+	//$children = get_pages('child_of='.$post->ID);
 	//GET PARENT PAGE IF THERE IS ONE
 	$parent = $post->post_parent;
 
 	//DO WE HAVE SIBLINGS?
 	$siblings =  get_pages('child_of='.$parent);
-
+	/*
 	if( count($children) != 0) {
-	   $args = array(
+		$argsChild = array(
 		 'depth' => 1,
 		 'title_li' => '',
 		 'child_of' => $post
-	   );
-
-	} elseif($parent != 0) {
-		$args = array(
+		);
+	}
+	*/
+	if($parent != 0) {
+		$argsParent = array(
 			 'depth' => 1,
 			 'title_li' => '',
 			 'child_of' => $parent
@@ -124,11 +128,21 @@ function child_page_nav(){
 	}
 	//Show pages if this page has more than one sibling 
 	// and if it has children 
-	if(count($siblings) > 1 && !is_null($args))   
+	/*
+	if(!is_null($argsChild))   
 	{
 		echo '<div class="sidebar-left-list-pages">';
 				'<ul>';
-			wp_list_pages($args);
+			wp_list_pages($argsChild);
+		echo '	 </ul>';
+		echo ' </div>';
+	}
+	*/
+	if(!is_null($argsParent))   
+	{
+		echo '<div class="sidebar-left-list-pages">';
+				'<ul>';
+			wp_list_pages($argsParent);
 		echo '	 </ul>';
 		echo ' </div>';
 	}
@@ -155,3 +169,21 @@ function my_woocommerce_catalog_orderby( $orderby ) {
 add_filter( "woocommerce_catalog_orderby", "my_woocommerce_catalog_orderby", 20 );
 //remove orderby block	
 remove_action( "woocommerce_before_shop_loop", "woocommerce_catalog_ordering", 30 );
+
+/*on affiche pas le titre de la page woocoremmerce*/
+	add_filter( 'woocommerce_show_page_title' , 'woo_hide_page_title' );
+/**
+ * woo_hide_page_title
+ *
+ * Removes the "shop" title on the main shop page
+*/
+function woo_hide_page_title() {
+	return false;
+}
+//affichage du titre de la page d'accueil de la boutique
+add_filter( 'woocommerce_page_title', 'woo_shop_page_title');
+function woo_shop_page_title( $page_title ) {
+  if( 'Shop' == $page_title) {
+			   return "Téléphones et périphériques";
+	 }
+}

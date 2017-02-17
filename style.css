@@ -19,7 +19,65 @@ License URI: http://themeforest.net/licenses/terms/regular
 
 
 /* YOU CAN PUT YOUR OWN CSS HERE */
+.texte-blanc p{
+	color:white;
+}
+.text-right{
+	text-align:right !important;
+	margin-top:10px;
+}
+.sec_icon_2:hover .aio-icon {color: #fff !important;}
+/* Price box 5 orange */
+.sec_icon_2_orange .vc_column-inner {text-align: center; border:1px #fff solid;-webkit-transition: all 500ms; transition: all 500ms;border-radius: 8px;}
+.sec_icon_2_orange h5 {}
+.sec_icon_2_orange .wpb_text_column {}
+.sec_icon_2_orange .aio-icon {}
+.sec_icon_2_orange:hover .vc_column-inner {border-color: #fff; background-color: #f4823a !important}
+.sec_icon_2_orange:hover h5 {color:#FFF}
+.sec_icon_2_orange:hover .wpb_text_column {color:#fff; text-align: center}
+.sec_icon_2_orange:hover .aio-icon {color: #fff !important;}
+.sec_icon_2_orange .btn-pricebox button {background-color: transparent !important; color:rgba(0,158,224,1) !important; font-size: 0; text-transform: uppercase; text-align: center; border-color: transparent !important;background-image: none;  -ms-filter: none; -webkit-filter: none; filter: none; font-weight: 700}
+.sec_icon_2_orange .btn-pricebox button:before {content: "\f061"; font-family: 'FontAwesome'; font-size: 15px; }
+.sec_icon_2_orange:hover .btn-pricebox button { font-size: 11px; background-color: #FFF !important}
+.sec_icon_2_orange:hover .btn-pricebox button:before {font-size: 0}
+/**/
+/* Price box 5 indigo */
+.sec_icon_2_gris_c .vc_column-inner {text-align: center; border:1px #fff solid;-webkit-transition: all 500ms; transition: all 500ms;border-radius: 8px;}
+.sec_icon_2_gris_c h5 {}
+.sec_icon_2_gris_c .wpb_text_column {}
+.sec_icon_2_gris_c .aio-icon {}
+.sec_icon_2_gris_c:hover .vc_column-inner {border-color: #fff; background-color: #4B0082 !important}
+.sec_icon_2_gris_c:hover h5 {color:#FFF}
+.sec_icon_2_gris_c:hover .wpb_text_column {color:#fff; text-align: center}
+.sec_icon_2_gris_c:hover .aio-icon {color: #fff !important;}
+.sec_icon_2_gris_c .btn-pricebox button {background-color: transparent !important; color:rgba(0,158,224,1) !important; font-size: 0; text-transform: uppercase; text-align: center; border-color: transparent !important;background-image: none;  -ms-filter: none; -webkit-filter: none; filter: none; font-weight: 700}
+.sec_icon_2_gris_c .btn-pricebox button:before {content: "\f061"; font-family: 'FontAwesome'; font-size: 15px; }
+.sec_icon_2_gris_c:hover .btn-pricebox button { font-size: 11px; background-color: #9C9D9F !important}
+.sec_icon_2_gris_c:hover .btn-pricebox button:before {font-size: 0}
+/**/
+/* Price box 5 gris foncé */
+.sec_icon_2_gris_f .vc_column-inner {text-align: center; border:1px #e8e9f0 solid;-webkit-transition: all 500ms; transition: all 500ms;border-radius: 8px;}
+.sec_icon_2_gris_f h5 {}
+.sec_icon_2_gris_f .wpb_text_column {}
+.sec_icon_2_gris_f .aio-icon {}
+.sec_icon_2_gris_f:hover .vc_column-inner {border-color: #fff; background-color: #2b384f !important}
+.sec_icon_2_gris_f:hover h5 {color:#FFF}
+.sec_icon_2_gris_f:hover .wpb_text_column {color:#FFF; text-align: center}
+.sec_icon_2_gris_f:hover .aio-icon {color:#FFF !important;}
+.sec_icon_2_gris_f .btn-pricebox button {background-color: transparent !important; color:rgba(0,158,224,1) !important; font-size: 0; text-transform: uppercase; text-align: center; border-color: transparent !important;background-image: none;  -ms-filter: none; -webkit-filter: none; filter: none; font-weight: 700}
+.sec_icon_2_gris_f .btn-pricebox button:before {content: "\f061"; font-family: 'FontAwesome'; font-size: 15px; }
+.sec_icon_2_gris_f:hover .btn-pricebox button { font-size: 11px; background-color: #FFF !important}
+.sec_icon_2_gris_f:hover .btn-pricebox button:before {font-size: 0}
+/**/
 
+/**price table 4 button*/
+.pricetable4 .ult_pricing_table .ult_price_link { padding-top: 15px !important;}
+.pricetable4 .ult_pricing_heading h3{min-height:66px;text-align:center;	}
+/**/
+.sell_topbar{
+	background-color:#3C3C46;
+	color:#e3e3e5;
+}
 .shortheader1.head_line .sell_topbar .cdata {
     text-align: left;
 }
@@ -35,10 +93,10 @@ License URI: http://themeforest.net/licenses/terms/regular
 
 .shortheader1.head_line .sell_topbar .languages ul .lang-item, .shortheader1.head_line .sell_topbar #menu-espace-client-top .menu-item {
     list-style: none;
-	 color: rgba(144,145,156,1);
+	color: #e3e3e5;
 }
 .shortheader1.head_line .sell_topbar .languages ul .lang-item a, .shortheader1.head_line .sell_topbar #menu-espace-client-top .menu-item a {
-    color: rgba(144,145,156,1);
+    color: #e3e3e5;
 	font-weight: bold;
 	margin: 2px 0 0 0;
 	padding-top:2px;
@@ -55,6 +113,9 @@ License URI: http://themeforest.net/licenses/terms/regular
     color: rgba(0,158,224,1);
     margin-right: 7px;
     margin-left: 25px;
+}
+.sell_topbar p i {
+	padding-left:10px;
 }
 .navbar-nav li.bgr1 .sub-menu > li, .navbar-nav li.bgr2 .sub-menu > li{
 	background-color: rgba(255,255,255,0.85	);
@@ -87,6 +148,7 @@ License URI: http://themeforest.net/licenses/terms/regular
     list-style: none;
     margin: 0 0 0 40px !important;
     padding-bottom: 0;
+	border-bottom: 0;
 }
 .sidebar-left-list-pages .current_page_item > a, .widget_product_categories .current-cat > a {
     font-weight: bold;
@@ -139,6 +201,12 @@ h2{
 h1:before, h2:before, h3:before {
     content: none;
 }
-h2.h2line {padding-bottom: 20px;position: relative;}
-h2.h2line:before {content:""; position: absolute; bottom:0; left: 0; width: 60px; height: 2px; background-color: rgba(0,158,224,1); border-radius: 2px}
-/*fin centrer headings page*/7
+h2.h2line, h3.h3line, h3.h3lineOrange {padding-bottom: 20px;position: relative;}
+h2.h2line:before, h3.h3lineOrange:before {content:""; position: absolute; bottom:0; left: 0; width: 60px; height: 2px; background-color: rgba(0,158,224,1); border-radius: 2px}
+h3.h3lineOrange:before {background-color:#f4823a;}
+/*fin centrer headings page*/
+
+/*FORM & INPUT*/
+/* Inputs for white bgr */
+input[type=text], input[type=tel], input[type=email], input[type=password], input[type=url], textarea, textarea.form-control, input[type=search] {background-color: #f8f8f8;}
+main input[type=submit]{margin-bottom: 20px !important;}

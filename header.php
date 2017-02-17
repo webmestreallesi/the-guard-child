@@ -22,6 +22,8 @@ sell_set_globals();
 		theguard_set_boxed_background();
 		wp_head();
 	?>
+<!-- Google recaptcha-->
+<script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 <body <?php body_class(); ?>>
 
