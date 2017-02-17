@@ -182,6 +182,9 @@ License URI: http://themeforest.net/licenses/terms/regular
     margin:0;
 	padding:0;	
 }
+.pageheading h1, .single .pageheading h1{
+	text-transform:none;
+}	
 h1, h2, h3, h4{
 	text-align:left;
 }
@@ -197,10 +200,11 @@ h2{
 .uvc-heading .uvc-main-heading h3, .uvc-heading .uvc-main-heading h4, .uvc-heading .uvc-main-heading h5, .uvc-heading .uvc-main-heading h6 {
     padding: 0 !important;
 }
-
+/*
 h1:before, h2:before, h3:before {
     content: none;
 }
+*/
 h2.h2line, h3.h3line, h3.h3lineOrange {padding-bottom: 20px;position: relative;}
 h2.h2line:before, h3.h3lineOrange:before {content:""; position: absolute; bottom:0; left: 0; width: 60px; height: 2px; background-color: rgba(0,158,224,1); border-radius: 2px}
 h3.h3lineOrange:before {background-color:#f4823a;}
