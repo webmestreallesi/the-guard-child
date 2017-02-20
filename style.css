@@ -193,6 +193,9 @@ License URI: http://themeforest.net/licenses/terms/regular
 h1, h2, h3, h4{
 	text-align:left;
 }
+h3.footer{
+	text-align:center;
+}
 h2{
 	font-size: 36px;
     line-height: 40px;
