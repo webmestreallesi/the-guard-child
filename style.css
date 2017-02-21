@@ -28,7 +28,7 @@ License URI: http://themeforest.net/licenses/terms/regular
 }
 /* Menuline */
 .head_line #stickymenu.sell_menuline.default .buttonMenu {display: none}
-.head_line #stickymenu.sell_menuline.fixed .buttonMenu {display: block}
+.head_line #stickymenu.sell_menuline.fixed .buttonMenu {display: none}
 
 .sec_icon_2:hover .aio-icon {color: #fff !important;}
 /* Price box 5 orange */
