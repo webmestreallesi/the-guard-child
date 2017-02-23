@@ -104,6 +104,7 @@ License URI: http://themeforest.net/licenses/terms/regular
 }
  .shortheader1.head_line .sell_topbar ul#menu-soumission-top {
     background-color:#fff;
+	display:block;
 }
 
 .shortheader1.head_line .sell_topbar .languages ul .lang-item, .shortheader1.head_line .sell_topbar #menu-espace-client-top .menu-item, .shortheader1.head_line .sell_topbar ul#menu-soumission-top .menu-item{
