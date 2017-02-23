@@ -19,7 +19,7 @@
                                 <ul class="nav navbar-nav nav-list">
                                     <?php theguard_set_nav(); ?>
                                     <?php theguard_search_menu(); ?>
-                                    <?php theguard_cart_menu(); ?>
+                                    <?php theguard_soumssion_menu(); ?>
                                 </ul>
                             </div>
                         
