@@ -37,7 +37,7 @@ if ( ! function_exists( 'theguard_topbar_r' ) ) {
 				<div class="col-md-3 col-sm-12 col-xs-12 languages">';
 					echo '<ul>';
 						wp_nav_menu(array( 'menu' => 'Demande de soumission Top', 'menu_id'=> 'menu-soumission-top', 'container_class' => 'menu-customer_area',
-						'echo' => true, 'before' => '<i class="ultimate1600-user"></i>', 'after' => '', 'link_before' => ''));
+						'echo' => true, 'before' => '<i class="icon-envelop3"></i>', 'after' => '', 'link_before' => ''));
 						echo '</ul>';
 				echo '</div>
 				<div class="col-md-2 col-sm-12 col-xs-12 languages">';
