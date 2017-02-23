@@ -89,6 +89,7 @@ License URI: http://themeforest.net/licenses/terms/regular
 .sell_topbar{
 	background-color:#3C3C46;
 	color:#e3e3e5;
+	padding-top:8px;
 }
 .shortheader1.head_line .sell_topbar .cdata {
     text-align: left;
