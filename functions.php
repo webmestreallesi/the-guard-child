@@ -188,8 +188,10 @@ function woo_shop_page_title( $page_title ) {
 	 }
 }
 //gestion du lien vers le formulaire de soumissionà// Search icon and form for menu
+/*
 function theguard_soumssion_menu()
 {        
         $linkSoumission='<li class="cart"><a href="#">Soumission</a></li>';
 		echo $linkSoumission;
 }
+*/
