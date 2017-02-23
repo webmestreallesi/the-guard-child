@@ -97,17 +97,17 @@ License URI: http://themeforest.net/licenses/terms/regular
     text-align: right;
 }
 /*top bar languages selection*/
-.shortheader1.head_line .sell_topbar .languages ul, .shortheader1.head_line .sell_topbar ul#menu-espace-client-top {
+.shortheader1.head_line .sell_topbar .languages ul, .shortheader1.head_line .sell_topbar ul#menu-espace-client-top, .shortheader1.head_line .sell_topbar ul#menu-soumission-top {
     min-height: 20px;
 	margin:0;
 	padding:0;
 }
 
-.shortheader1.head_line .sell_topbar .languages ul .lang-item, .shortheader1.head_line .sell_topbar #menu-espace-client-top .menu-item {
+.shortheader1.head_line .sell_topbar .languages ul .lang-item, .shortheader1.head_line .sell_topbar #menu-espace-client-top .menu-item, .shortheader1.head_line .sell_topbar ul#menu-soumission-top  .menu-item{
     list-style: none;
 	color: #e3e3e5;
 }
-.shortheader1.head_line .sell_topbar .languages ul .lang-item a, .shortheader1.head_line .sell_topbar #menu-espace-client-top .menu-item a {
+.shortheader1.head_line .sell_topbar .languages ul .lang-item a, .shortheader1.head_line .sell_topbar #menu-espace-client-top .menu-item a, .shortheader1.head_line .sell_topbar ul#menu-soumission-top .menu-item a {
     color: #e3e3e5;
 	font-weight: bold;
 	margin: 2px 0 0 0;
@@ -117,7 +117,7 @@ License URI: http://themeforest.net/licenses/terms/regular
 	font-family: Roboto;
 	line-height:28px;
 }
-.shortheader1.head_line .sell_topbar .languages ul .lang-item a:hover, .shortheader1.head_line .sell_topbar #menu-espace-client-top .menu-item a:hover {
+.shortheader1.head_line .sell_topbar .languages ul .lang-item a:hover, .shortheader1.head_line .sell_topbar #menu-espace-client-top .menu-item a:hover,  .shortheader1.head_line .sell_topbar ul#menu-soumission-top .menu-item a:hover {
     color: #009ee0;
 	text-decoration:none;
 }
