@@ -191,4 +191,5 @@ function woo_shop_page_title( $page_title ) {
 function theguard_soumssion_menu()
 {        
         $linkSoumission='<li class="cart"><a href="#">Soumission</a></li>';
+		return $linkSoumission;
 }
