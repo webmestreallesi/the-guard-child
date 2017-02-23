@@ -32,6 +32,9 @@ if ( ! function_exists( 'theguard_topbar_r' ) ) {
 				<div class="col-md-6 col-sm-12 col-xs-12 cdata">';
 					theguard_phone_header();
 					//theguard_email_header();
+					//boutonb demande de soumission
+					wp_nav_menu(array( 'menu' => 'Demande de soumission Top', 'menu_id'=> 'soumission-top', 'container_class' => 'menu-customer_area',
+					'echo' => true, 'before' => '<i class="ultimate1600-user"></i>', 'after' => '', 'link_before' => ''));
 				echo '</div>
 				<div class="col-md-2 col-sm-12 col-xs-12 languages">';
 					//call language switcher polylang
@@ -41,9 +44,6 @@ if ( ! function_exists( 'theguard_topbar_r' ) ) {
 					//Pour le lancement du site
 					echo '<li class="lang-item lang-item-39 lang-item-en-ca lang-item-first"><a lang="en-CA" hreflang="en-CA" href="http://en.allesi.ca/"><img src="/wp-content/polylang/en_CA.png" title="English" alt="English"><span style="margin-left:0.3em;">English</span></a></li>';
 					echo '</ul>';
-					//boutonb demande de soumission
-					wp_nav_menu(array( 'menu' => 'Demande de soumission Top', 'menu_id'=> 'soumission-top', 'container_class' => 'menu-customer_area',
-					'echo' => true, 'before' => '<i class="ultimate1600-user"></i>', 'after' => '', 'link_before' => ''));
 				echo '</div>
 				<div class="col-md-2 col-sm-12 col-xs-12 languages">';
 					//lien espace client
