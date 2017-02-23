@@ -33,10 +33,6 @@ if ( ! function_exists( 'theguard_topbar_r' ) ) {
 					theguard_phone_header();
 					//theguard_email_header();
 					//boutonb demande de soumission
-					echo '<ul>';
-					wp_nav_menu(array( 'menu' => 'Demande de soumission Top', 'menu_id'=> 'soumission-top', 'container_class' => 'menu-customer_area',
-					'echo' => true, 'before' => '', 'after' => '', 'link_before' => ''));
-					echo '</ul>';
 				echo '</div>
 				<div class="col-md-2 col-sm-12 col-xs-12 languages">';
 					echo '<ul>';
