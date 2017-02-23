@@ -130,6 +130,9 @@ License URI: http://themeforest.net/licenses/terms/regular
     color: #009ee0;
 	text-decoration:none;
 }
+.shortheader1.head_line .sell_topbar ul#menu-soumission-top .menu-item a:hover {
+    background-color: #000;
+}
 .sell_topbar #menu-espace-client-top li i, #menu-soumission-top li i {
     color: rgba(0,158,224,1);
     margin-right: 7px;
