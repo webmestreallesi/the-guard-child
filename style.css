@@ -97,7 +97,6 @@ License URI: http://themeforest.net/licenses/terms/regular
     text-align: right;
 }
 .shortheader1.head_line .soumission ul {
-    text-align: center;
 	margin:0;
 	padding:0;
 }
@@ -108,7 +107,7 @@ License URI: http://themeforest.net/licenses/terms/regular
 	padding:0;
 }
  .shortheader1.head_line .sell_topbar ul#menu-soumission-top {
-    background-color:#cbcbce;
+    background-color:#606a7b;
 	
 }
 
