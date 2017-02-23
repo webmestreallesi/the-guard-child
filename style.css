@@ -96,20 +96,25 @@ License URI: http://themeforest.net/licenses/terms/regular
 .shortheader1.head_line .social ul {
     text-align: right;
 }
-/*top bar languages selection*/
+.shortheader1.head_line .soumission ul {
+    text-align: center;
+	margin:0;
+	padding:0;
+}
+/*top bar languages selection & demande soumission*/
 .shortheader1.head_line .sell_topbar .languages ul, .shortheader1.head_line .sell_topbar ul#menu-espace-client-top, .shortheader1.head_line .sell_topbar ul#menu-soumission-top {
     min-height: 20px;
 	margin:0;
 	padding:0;
 }
  .shortheader1.head_line .sell_topbar ul#menu-soumission-top {
-    background-color:#fff;
-	display:block;
+    background-color:#cbcbce;
+	
 }
 
 .shortheader1.head_line .sell_topbar .languages ul .lang-item, .shortheader1.head_line .sell_topbar #menu-espace-client-top .menu-item, .shortheader1.head_line .sell_topbar ul#menu-soumission-top .menu-item{
     list-style: none;
-	color: #e3e3e5;
+	color: #000;
 }
 .shortheader1.head_line .sell_topbar .languages ul .lang-item a, .shortheader1.head_line .sell_topbar #menu-espace-client-top .menu-item a, .shortheader1.head_line .sell_topbar ul#menu-soumission-top .menu-item a {
     color: #e3e3e5;
