@@ -107,7 +107,7 @@ License URI: http://themeforest.net/licenses/terms/regular
 	padding:0;
 }
  .shortheader1.head_line .sell_topbar ul#menu-soumission-top {
-    background-color:#606a7b;
+    background-color:#79818f;
 	
 }
 
@@ -123,7 +123,7 @@ License URI: http://themeforest.net/licenses/terms/regular
 	text-decoration:none;
 	font-size: 17px;
 	font-family: Roboto;
-	line-height:28px;
+	line-height:34px;
 }
 .shortheader1.head_line .sell_topbar .languages ul .lang-item a:hover, .shortheader1.head_line .sell_topbar #menu-espace-client-top .menu-item a:hover,  .shortheader1.head_line .sell_topbar ul#menu-soumission-top .menu-item a:hover {
     color: #009ee0;
@@ -136,6 +136,9 @@ License URI: http://themeforest.net/licenses/terms/regular
 }
 .sell_topbar p i {
 	padding-left:10px;
+}
+.sell_topbar p {
+	line-height: 34px;
 }
 .navbar-nav li.bgr1 .sub-menu > li, .navbar-nav li.bgr2 .sub-menu > li{
 	background-color: rgba(255,255,255,0.85	);
