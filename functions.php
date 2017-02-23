@@ -29,7 +29,7 @@ if ( ! function_exists( 'theguard_topbar_r' ) ) {
 				echo '<div class="sell_topbar">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-6 col-sm-12 col-xs-12 cdata">';
+				<div class="col-md-4 col-sm-12 col-xs-12 cdata">';
 					theguard_phone_header();
 					//theguard_email_header();
 					//boutonb demande de soumission
@@ -37,6 +37,12 @@ if ( ! function_exists( 'theguard_topbar_r' ) ) {
 					wp_nav_menu(array( 'menu' => 'Demande de soumission Top', 'menu_id'=> 'soumission-top', 'container_class' => 'menu-customer_area',
 					'echo' => true, 'before' => '', 'after' => '', 'link_before' => ''));
 					echo '</ul>';
+				echo '</div>
+				<div class="col-md-2 col-sm-12 col-xs-12 languages">';
+					echo '<ul>';
+						wp_nav_menu(array( 'menu' => 'Demande de soumission Top', 'menu_id'=> 'soumission-top', 'container_class' => 'menu-customer_area',
+						'echo' => true, 'before' => '', 'after' => '', 'link_before' => ''));
+						echo '</ul>';
 				echo '</div>
 				<div class="col-md-2 col-sm-12 col-xs-12 languages">';
 					//call language switcher polylang
