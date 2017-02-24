@@ -97,7 +97,7 @@ License URI: http://themeforest.net/licenses/terms/regular
 .shortheader1.head_line .social ul {
     text-align: right;
 }
-.shortheader1.head_line .soumission ul {
+.shortheader1.head_line .soumission ul, .soumission ul  {
 	margin:0;
 	padding:0;
 }
