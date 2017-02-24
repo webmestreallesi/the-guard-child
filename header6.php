@@ -26,7 +26,7 @@
                 </div>
 				<?php
 				echo '<div class="col-md-1 col-sm-12 col-xs-12 soumission">';
-					wp_nav_menu(array( 'menu' => 'Demande de soumission Top', 'menu_id'=> 'menu-soumission-top', 'container_class' => 'menu-customer_area',
+					wp_nav_menu(array( 'menu' => 'Demande de soumission Top', 'menu_id'=> 'menu-soumission-top', 'container_class' => 'nav navbar-nav nav-list',
 					'echo' => true, 'before' => '', 'after' => '', 'link_before' => ''));
 				echo '</div>';
 				?>
