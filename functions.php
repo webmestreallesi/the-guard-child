@@ -37,8 +37,7 @@ if ( ! function_exists( 'theguard_topbar_r' ) ) {
 				// on garde cela au cas ou on décide d'y placer un lien
 				echo '<div class="col-md-3 col-sm-12 col-xs-12 soumission">';
 					//'<ul>';
-					//	wp_nav_menu(array( 'menu' => 'Demande de soumission Top', 'menu_id'=> 'menu-soumission-top', 'container_class' => 'menu-customer_area',
-					//	'echo' => true, 'before' => '', 'after' => '', 'link_before' => ''));
+					//	wp_nav_menu(array( 'menu' => 'Demande de soumission', 'menu_id'=> 'menu-soumission-top', 'container_class' => 'menu-customer_area', 'echo' => true, 'before' => '', 'after' => '', 'link_before' => ''));
 					//	echo '</ul>';
 				echo '</div>';
 				/**/
