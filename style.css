@@ -167,7 +167,7 @@ ul#menu-link-soumission .menu-item a {
 	color: #fff;
 }
 /*fix sticky menu alignment*/
-.head_line #stickymenu.sell_menuline.fixed .navbar-nav > li > a, ul#menu-link-soumission .menu-item > li > a{
+.head_line #stickymenu.sell_menuline.fixed .navbar-nav > li > a, .head_line #stickymenu.sell_menuline.fixed .menu-item > li > a{
     padding: 17px 5px 19px 5px;
 }
 /**/
