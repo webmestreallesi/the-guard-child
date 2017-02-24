@@ -112,11 +112,11 @@ License URI: http://themeforest.net/licenses/terms/regular
 	
 }
 
-.shortheader1.head_line .sell_topbar .languages ul .lang-item, .shortheader1.head_line .sell_topbar #menu-espace-client-top .menu-item, .shortheader1.head_line .sell_topbar ul#menu-soumission-top .menu-item{
+.shortheader1.head_line .sell_topbar .languages ul .lang-item, .shortheader1.head_line .sell_topbar #menu-espace-client-top .menu-item, .shortheader1.head_line .sell_topbar ul#menu-soumission-top .menu-item, ul#menu-link-soumission .menu-item {
     list-style: none;
 	color: #000;
 }
-.shortheader1.head_line .sell_topbar .languages ul .lang-item a, .shortheader1.head_line .sell_topbar #menu-espace-client-top .menu-item a, .shortheader1.head_line .sell_topbar ul#menu-soumission-top .menu-item a {
+.shortheader1.head_line .sell_topbar .languages ul .lang-item a, .shortheader1.head_line .sell_topbar #menu-espace-client-top .menu-item a, .shortheader1.head_line .sell_topbar ul#menu-soumission-top .menu-item a, ul#menu-link-soumission .menu-item a {
     color: #e3e3e5;
 	font-weight: bold;
 	margin: 2px 0 0 0;
@@ -126,14 +126,14 @@ License URI: http://themeforest.net/licenses/terms/regular
 	font-family: Roboto;
 	line-height:34px;
 }
-.shortheader1.head_line .sell_topbar .languages ul .lang-item a:hover, .shortheader1.head_line .sell_topbar #menu-espace-client-top .menu-item a:hover,  .shortheader1.head_line .sell_topbar ul#menu-soumission-top .menu-item a:hover {
+.shortheader1.head_line .sell_topbar .languages ul .lang-item a:hover, .shortheader1.head_line .sell_topbar #menu-espace-client-top .menu-item a:hover,  .shortheader1.head_line .sell_topbar ul#menu-soumission-top .menu-item a:hover, ul#menu-link-soumission .menu-item a:hover {
     color: #009ee0;
 	text-decoration:none;
 }
-.shortheader1.head_line .sell_topbar ul#menu-soumission-top li:hover {
+.shortheader1.head_line .sell_topbar ul#menu-soumission-top li:hover,  ul#menu-link-soumission li:hover {
     background-color: #fff;
 }
-.sell_topbar #menu-espace-client-top li i, #menu-soumission-top li i {
+.sell_topbar #menu-espace-client-top li i, #menu-soumission-top li i, #menu-link-soumission li i {
     color: rgba(0,158,224,1);
     margin-right: 7px;
     margin-left: 25px;
