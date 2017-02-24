@@ -107,11 +107,11 @@ License URI: http://themeforest.net/licenses/terms/regular
 	margin:0;
 	padding:0;
 }
+
  .shortheader1.head_line .sell_topbar ul#menu-soumission-top {
     background-color:#79818f;
 	
 }
-
 .shortheader1.head_line .sell_topbar .languages ul .lang-item, .shortheader1.head_line .sell_topbar #menu-espace-client-top .menu-item, .shortheader1.head_line .sell_topbar ul#menu-soumission-top .menu-item, ul#menu-link-soumission .menu-item {
     list-style: none;
 	color: #000;
@@ -158,13 +158,17 @@ ul#menu-link-soumission .menu-item a {
 	padding: 26px 10px;
 }			
 ul#menu-link-soumission .menu-item a {
-    margin: 16px 0 5px 0;
+    margin: 16px 0 5px 0;	
     padding: 6px 0 6px 0;
     font-size: 15px;
     line-height: 20px;
     text-align: center;
     background-color: #cbcbce;
 	color: #fff;
+}
+/*fix sticky menu alignment*/
+.head_line #stickymenu.sell_menuline.fixed .navbar-nav > li > a, ul#menu-link-soumission .menu-item > li > a{
+    padding: 17px 5px 19px 5px;
 }
 /**/
 /*menu shop sidebar left*/
