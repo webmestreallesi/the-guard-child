@@ -163,8 +163,8 @@ ul#menu-link-soumission .menu-item a {
     font-size: 15px;
     line-height: 20px;
     text-align: center;
-    background-color: rgba(144,145,156,	0.6);
-	color: #F78028;
+    background-color: #F78028;
+	color: #fff;
 }
 ul#menu-link-soumission .menu-item a:hover {
 	background-color: #fff;
