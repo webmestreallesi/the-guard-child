@@ -126,6 +126,12 @@ License URI: http://themeforest.net/licenses/terms/regular
 	font-family: Roboto;
 	line-height:34px;
 }
+ul#menu-link-soumission .menu-item a {
+    margin: 2px 0 0 0;
+    padding-top: 2px;
+    font-size: 14px;
+    line-height: 16px;
+}
 .shortheader1.head_line .sell_topbar .languages ul .lang-item a:hover, .shortheader1.head_line .sell_topbar #menu-espace-client-top .menu-item a:hover,  .shortheader1.head_line .sell_topbar ul#menu-soumission-top .menu-item a:hover, ul#menu-link-soumission .menu-item a:hover {
     color: #009ee0;
 	text-decoration:none;
