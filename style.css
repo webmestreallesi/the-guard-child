@@ -160,7 +160,7 @@ ul#menu-link-soumission .menu-item a {
     color: rgba(112,114,130,1);
     position: relative;
     z-index: 5;
-    padding: 26px 15px;
+    padding: 26px 5px;
     font-size: 36px;
     -webkit-transition: all 500ms;
     transition: all 500ms;
