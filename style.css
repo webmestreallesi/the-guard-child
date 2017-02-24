@@ -147,7 +147,11 @@ License URI: http://themeforest.net/licenses/terms/regular
 .navbar-nav li.bgr1 .sub-menu > li, .navbar-nav li.bgr2 .sub-menu > li{
 	background-color: rgba(255,255,255,0.85	);
 }
-/*menu pages sidebar left*/
+/*demande de soumission*/
+.navbar-nav li.bgr1 .sub-menu > li, .navbar-nav li.bgr2 .sub-menu > li{
+	background-color: rgba(255,255,255,0.85	);
+	color:red;
+}
 /*menu shop sidebar left*/
 .widget-area {
 	background-color:#fff;
