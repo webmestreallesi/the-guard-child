@@ -26,6 +26,13 @@ License URI: http://themeforest.net/licenses/terms/regular
 	text-align:right !important;
 	margin-top:10px;
 }
+.alignleft {
+   float: left;
+}
+
+.alignright {
+   float: right;
+}
 /* Menuline */
 #stickymenu.sell_menuline.default .buttonMenu {display: none}
 #stickymenu.sell_menuline.fixed .buttonMenu {display: none}
@@ -165,7 +172,7 @@ ul#menu-link-soumission .menu-item a {
     text-align: center;
     background-color: rgba(0, 158, 224, 0.7);
 	color: #fff;
-	border-radius: 8px;
+	border-radius: 8px;	
 }
 ul#menu-link-soumission .menu-item a:hover {
 	background-color: #fff;
