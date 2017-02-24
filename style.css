@@ -157,7 +157,7 @@ ul#menu-link-soumission .menu-item a {
 .navbar-nav li a {
 	padding: 26px 10px;
 }	
-.navbar-nav .menu-link-soumission li a {
+/*.navbar-nav .menu-link-soumission li a {
     display: block;
     text-decoration: none;
     color: rgba(112,114,130,1);
@@ -167,6 +167,15 @@ ul#menu-link-soumission .menu-item a {
     font-size: 36px;
     -webkit-transition: all 500ms;
     transition: all 500ms;
+}
+*/
+ul#menu-link-soumission .menu-item a {
+    margin: 16px 0 5px 0;
+    padding: 6px 0 6px 0;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    background-color: grey;
 }
 /**/
 /*menu shop sidebar left*/
