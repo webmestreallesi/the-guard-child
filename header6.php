@@ -9,7 +9,7 @@
                     <?php theguard_logo_img(); ?>
 
                 </div>
-                <div class="col-md-9 col-sm-8 col-xs-12 nav-wrap">
+                <div class="col-md-7 col-sm-8 col-xs-12 nav-wrap">
                     <div class="navbar navbar-default">
 
                             <div class="navbar-header visible-sm visible-xs pull-right">
@@ -22,9 +22,16 @@
                                     <?php theguard_cart_menu(); ?>
                                 </ul>
                             </div>
-                        
                     </div>
                 </div>
+				<?php
+				echo '<div class="col-md-2 col-sm-12 col-xs-12 soumission">';		
+					echo '<ul>';
+					wp_nav_menu(array( 'menu' => 'Demande de soumission Top', 'menu_id'=> 'menu-soumission-top', 'container_class' => 'menu-customer_area',
+					'echo' => true, 'before' => '', 'after' => '', 'link_before' => ''));
+					echo '</ul>';
+				echo '</div>';
+				?>
             </div>
         </div>
     </div>
