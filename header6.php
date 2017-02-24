@@ -5,7 +5,7 @@
     <div class="sell_menuline default" <?php theguard_sticky_class(); ?>>
         <div class="container">
             <div class="row">
-                <div class="col-md-2 col-sm-4 col-xs-12">
+                <div class="col-md-3 col-sm-4 col-xs-12">
                     <?php theguard_logo_img(); ?>
 
                 </div>
@@ -25,7 +25,7 @@
                     </div>
                 </div>
 				<?php
-				echo '<div class="col-md-2 col-sm-12 col-xs-12 soumission">';
+				echo '<div class="col-md-1 col-sm-12 col-xs-12 soumission">';
 					wp_nav_menu(array( 'menu' => 'Demande de soumission Top', 'menu_id'=> 'menu-link-soumission', 'container_class' => 'nav navbar-nav nav-list',
 					'echo' => true, 'before' => '', 'after' => '', 'link_before' => ''));
 				echo '</div>';
