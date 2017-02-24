@@ -9,7 +9,7 @@
                     <?php theguard_logo_img(); ?>
 
                 </div>
-                <div class="col-md-8 col-sm-8 col-xs-12 nav-wrap">
+                <div class="col-md-7 col-sm-8 col-xs-12 nav-wrap">
                     <div class="navbar navbar-default">
 
                             <div class="navbar-header visible-sm visible-xs pull-right">
@@ -25,7 +25,7 @@
                     </div>
                 </div>
 				<?php
-				echo '<div class="col-md-1 col-sm-12 col-xs-12 soumission">';
+				echo '<div class="col-md-2 col-sm-12 col-xs-12 soumission">';
 					wp_nav_menu(array( 'menu' => 'Demande de soumission Top', 'menu_id'=> 'menu-link-soumission', 'container_class' => 'nav navbar-nav nav-list',
 					'echo' => true, 'before' => '', 'after' => '', 'link_before' => ''));
 				echo '</div>';
