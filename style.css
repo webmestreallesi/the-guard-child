@@ -168,6 +168,7 @@ ul#menu-link-soumission .menu-item a {
 }
 ul#menu-link-soumission .menu-item a:hover {
 	background-color: #fff;
+	border:1px solid #009ee0;
 }
 /*fix sticky menu alignment*/
 .head_line #stickymenu.sell_menuline.fixed .navbar-nav > li > a{
