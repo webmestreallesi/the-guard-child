@@ -82,8 +82,10 @@ License URI: http://themeforest.net/licenses/terms/regular
 /**/
 
 /**price table 4 button*/
-.pricetable4 .ult_pricing_table .ult_price_link { padding-top: 15px !important;}
-.pricetable4 .ult_pricing_heading h3{min-height:66px;text-align:center;	}
+.pricetable4 .ult_pricing_table .ult_price_link, .pricetable4-camera .ult_pricing_table .ult_price_link { padding-top: 15px !important;}
+.pricetable4 .ult_pricing_heading h3, .pricetable4-camera .ult_pricing_heading h4 {text-align:center;}
+.pricetable4 .ult_pricing_heading h3 {min-height:66px;}
+.pricetable4-camera .ult_pricing_heading h4 { color:#262626;}
 /**/
 /**flipbox element**/
 .ifb-front h3, .ifb-front p{
@@ -279,3 +281,8 @@ h3.h3lineOrange:before {background-color:#f4823a;}
 /* Inputs for white bgr */
 input[type=text], input[type=tel], input[type=email], input[type=password], input[type=url], textarea, textarea.form-control, input[type=search] {background-color: #f8f8f8;}
 main input[type=submit]{margin-bottom: 20px !important;}
+
+/*fix issue sitcky side buttons*/
+.ssb-container {
+    right: -146px;
+}
