@@ -82,10 +82,10 @@ License URI: http://themeforest.net/licenses/terms/regular
 /**/
 
 /**price table 4 button*/
-.pricetable4 .ult_pricing_table .ult_price_link, .pricetable4-camera .ult_pricing_table .ult_price_link { padding-top: 15px !important;}
-.pricetable4 .ult_pricing_heading h3, .pricetable4-camera .ult_pricing_heading h4 {text-align:center;}
+.pricetable4 .ult_pricing_table .ult_price_link, .pricetable4-camera .ult_pricing_table .ult_price_link{ padding-top: 15px !important;}
+.pricetable4 .ult_pricing_heading h3, .pricetable4-camera .ult_price_features h4 {text-align:center;}
 .pricetable4 .ult_pricing_heading h3 {min-height:66px;}
-.pricetable4-camera .ult_pricing_heading h4 { color:#262626;}
+.pricetable4-camera .ult_price_features h4 { color:#262626;}
 /**/
 /**flipbox element**/
 .ifb-front h3, .ifb-front p{
