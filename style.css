@@ -286,3 +286,14 @@ main input[type=submit]{margin-bottom: 20px !important;}
 .ssb-container {
     right: -146px;
 }
+/*h1 height issue on smartphone*/
+@media (max-width: 620px) {
+	.pageheading h1, .single .pageheading h1 {
+	margin: 0px 0 20px 0;
+	}
+}
+@media (max-width: 960px) {
+	.pageheading h1, .single .pageheading h1 {
+		margin: 40px 0 60px 0;
+	}
+}
