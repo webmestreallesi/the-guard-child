@@ -294,6 +294,6 @@ main input[type=submit]{margin-bottom: 20px !important;}
 }
 @media (max-width: 960px) {
 	.pageheading h1, .single .pageheading h1 {
-		margin: 120px 0 80px 0;
+		margin: 100px 0 60px 0;
 	}
 }
