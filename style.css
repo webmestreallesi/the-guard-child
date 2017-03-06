@@ -253,6 +253,9 @@ ul#menu-link-soumission .menu-item a:hover {
 h1, h2, h3, h4{
 	text-align:left;
 }
+.text-center h3{
+	text-align:center;
+}
 h2{
 	font-size: 32px;
     line-height: 40px;
