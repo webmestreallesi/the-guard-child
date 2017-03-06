@@ -288,7 +288,7 @@ main input[type=submit]{margin-bottom: 20px !important;}
 .wpcf7 select{
     padding: 10px 12px;
     border: 2px rgba(228,232,241,1) solid;
-    background-color: #000;
+    background-color: #f8f8f8;;
 }
 
 /*fix issue sitcky side buttons*/
