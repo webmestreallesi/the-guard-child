@@ -309,3 +309,6 @@ main input[type=submit]{margin-bottom: 20px !important;}
 .tg .tg-qv16{font-weight:bold;font-size:16px;text-align:center;vertical-align:top}
 .tg .tg-lvth{font-size:16px;text-align:center;vertical-align:top;border-right: #999 1px solid;}
 /**/
+label {
+    margin-right: 10px;
+}
