@@ -310,7 +310,7 @@ main input[type=submit]{margin-bottom: 20px !important;}
 
 /*simple tab css generate with http://www.tablesgenerator.com/html_tables*/
 .tg  {border-collapse:collapse;border-spacing:0;border-color:#999;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#999;color:#fff;background-color:#F7FDFA;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#999;color:#444;background-color:#fff;}
 .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#999;color:#fff;background-color:#26ADE4;}
 .tg .tg-2ktp{font-size:16px;vertical-align:top;border-right: #999 1px solid;}	
 .tg .tg-qv16{font-weight:bold;font-size:16px;text-align:center;vertical-align:top}
