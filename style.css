@@ -300,3 +300,12 @@ main input[type=submit]{margin-bottom: 20px !important;}
 		margin: 80px 0 40px 0;
 	}
 }
+
+/*simple tab css generate with http://www.tablesgenerator.com/html_tables*/
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-2ktp{font-size:16px;vertical-align:top}
+.tg .tg-qv16{font-weight:bold;font-size:16px;text-align:center;vertical-align:top}
+.tg .tg-lvth{font-size:16px;text-align:center;vertical-align:top}
+/**/
