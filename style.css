@@ -285,6 +285,12 @@ h3.h3lineOrange:before {background-color:#f4823a;}
 input[type=text], input[type=tel], input[type=email], input[type=password], input[type=url], textarea, textarea.form-control, input[type=search] {background-color: #f8f8f8;}
 main input[type=submit]{margin-bottom: 20px !important;}
 
+.wpcf7 select{
+    padding: 10px 12px;
+    border: 2px rgba(228,232,241,1) solid;
+    background-color: none;
+}
+
 /*fix issue sitcky side buttons*/
 .ssb-container {
     right: -146px;
