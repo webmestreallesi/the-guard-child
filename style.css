@@ -325,8 +325,8 @@ label {
     position: fixed;
     top: 40%;
     z-index: 1;
-	right: 0 !important;
+	right: -145px;
 }
 #ssb-container:hover {
-	right: -145px !important;
+	right: 0;
 }
