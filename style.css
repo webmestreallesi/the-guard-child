@@ -319,3 +319,11 @@ main input[type=submit]{margin-bottom: 20px !important;}
 label {
     margin-right: 10px;
 }
+
+/*sticky side buttons*/
+#ssb-container {
+    position: fixed;
+    top: 40%;
+    z-index: 1;
+	right: -145px !important;
+}
