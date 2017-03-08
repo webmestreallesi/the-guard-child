@@ -319,14 +319,3 @@ main input[type=submit]{margin-bottom: 20px !important;}
 label {
     margin-right: 10px;
 }
-
-/*sticky side buttons : bug issue align right*/
-#ssb-container {
-    position: fixed;
-    top: 40%;
-    z-index: 1;
-	right: -146px;
-}
-#ssb-container:hover {
-	right: 0;
-}
