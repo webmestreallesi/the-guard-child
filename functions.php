@@ -84,13 +84,13 @@ function theguard_set_header_sidebar_layout_custom() {
 			$prefix = '_';
 		}
 		if (isset($theguard_layout[$secretlab['theguard_page_type'] . $prefix . 'left_sidebar_widgets'])) {
+			echo '<div>'.child_page_nav().'</div>';
 			dynamic_sidebar($theguard_layout[$secretlab['theguard_page_type'] . $prefix . 'left_sidebar_widgets']);
-			//display sub pages
-			child_page_nav();
+			//display sub pages	
 		} else {
+			echo '<div>'.child_page_nav().'</div>';
 			dynamic_sidebar($secretlab['theguard_page_type'] . '_default_left_sidebar');
 			//display sub pages
-			child_page_nav();
 		}
 		echo '</div>';
 	}
