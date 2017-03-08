@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for displaying 404 pages (Not Found)
+ * The custom template for displaying 404 pages (Not Found)
  */
 
 get_template_part( 'header-no-sidebar');
@@ -8,12 +8,9 @@ get_template_part( 'header-no-sidebar');
 
 	<div id="primary" class="content-area mb80 error404">
 		<div id="content" class="site-content" role="main">
-			<header class="page-header">
-				<h1 class="page-title"><?php esc_html_e( 'Désolé ! Page non trouvée !', 'the-guard' ); ?></h1>
-			</header>
-
 			<div class="page-wrapper">
 				<div class="page-content text-center">
+					<h1 class="page-title"><?php esc_html_e( 'Désolé ! Page non trouvée !', 'the-guard' ); ?></h1>
 					<div class="e404">
 						<div class="block">
 							<div class="wrapper" data-anim="base wrapper">	
