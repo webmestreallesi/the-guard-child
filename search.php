@@ -11,7 +11,7 @@ get_template_part( 'header-no-sidebar'); ?>
 		<?php if ( have_posts() ) : ?>
 
 			<header class="page-header">
-				<h1 class="page-title"><?php printf( esc_html__( 'Search Results for: %s', 'the-guard' ), get_search_query() ); ?></h1>
+				<h1 class="page-title"><?php printf( esc_html_e( 'Search Results for: %s', 'the-guard' ), get_search_query() ); ?></h1>
 			</header>
 
 			<?php /* The loop */ ?>
