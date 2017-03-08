@@ -9,8 +9,9 @@ get_template_part( 'header-no-sidebar');
 	<div id="primary" class="content-area mb80 error404">
 		<div id="content" class="site-content" role="main">
 			<div class="page-wrapper">
+				<h1><?php esc_html_e( 'Désolé ! Page non trouvée !', 'the-guard' ); ?></h1>
 				<div class="page-content text-center">
-					<h1 class="page-title"><?php esc_html_e( 'Désolé ! Page non trouvée !', 'the-guard' ); ?></h1>
+					
 					<div class="e404">
 						<div class="block">
 							<div class="wrapper" data-anim="base wrapper">	
