@@ -84,13 +84,17 @@ function theguard_set_header_sidebar_layout_custom() {
 			$prefix = '_';
 		}
 		if (isset($theguard_layout[$secretlab['theguard_page_type'] . $prefix . 'left_sidebar_widgets'])) {
-			echo '<div>'.child_page_nav().'</div>';
-			dynamic_sidebar($theguard_layout[$secretlab['theguard_page_type'] . $prefix . 'left_sidebar_widgets']);
-			//display sub pages	
-		} else {
-			echo '<div>'.child_page_nav().'</div>';
-			dynamic_sidebar($secretlab['theguard_page_type'] . '_default_left_sidebar');
 			//display sub pages
+			child_page_nav();
+			echo '<div>';
+			dynamic_sidebar($theguard_layout[$secretlab['theguard_page_type'] . $prefix . 'left_sidebar_widgets']);
+			echo '</div>';
+		} else {
+			//display sub pages
+			child_page_nav();
+			echo '<div>';
+			dynamic_sidebar($secretlab['theguard_page_type'] . '_default_left_sidebar');
+			echo '</div>';
 		}
 		echo '</div>';
 	}
@@ -118,15 +122,7 @@ function child_page_nav(){
 
 	//DO WE HAVE SIBLINGS?
 	$siblings =  get_pages('child_of='.$parent);
-	/*
-	if( count($children) != 0) {
-		$argsChild = array(
-		 'depth' => 1,
-		 'title_li' => '',
-		 'child_of' => $post
-		);
-	}
-	*/
+	
 	if($parent != 0) {
 		$argsParent = array(
 			 'depth' => 1,
@@ -134,23 +130,11 @@ function child_page_nav(){
 			 'child_of' => $parent
 		   );
 	}
-	//Show pages if this page has more than one sibling 
-	// and if it has children 
-	/*
-	if(!is_null($argsChild))   
-	{
-		echo '<div class="sidebar-left-list-pages">';
-				'<ul>';
-			wp_list_pages($argsChild);
-		echo '	 </ul>';
-		echo ' </div>';
-	}
-	*/
 	if(!is_null($argsParent))   
 	{
 		echo '<div class="sidebar-left-list-pages">';
 				'<ul>';
-			wp_list_pages($argsParent);
+				wp_list_pages($argsParent);
 		echo '	 </ul>';
 		echo ' </div>';
 	}
