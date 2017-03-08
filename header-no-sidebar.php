@@ -1,7 +1,7 @@
 <?php
 
 /**
- * The Header template for our theme
+ * The Header template with no left sidebar
  */
  
 sell_set_globals();
@@ -33,8 +33,5 @@ sell_set_globals();
 
 <main>
 	<div class="container">
-		<div class="row">
-			<?php
-			theguard_set_header_sidebar_layout_custom();
-			?>
+		<div class="row">
 
