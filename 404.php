@@ -3,7 +3,8 @@
  * The template for displaying 404 pages (Not Found)
  */
 
-get_template_part( 'header_no_sidebar'); ?>
+get_template_part( 'header-no-sidebar');
+?>
 
 	<div id="primary" class="content-area mb80 error404">
 		<div id="content" class="site-content" role="main">
