@@ -19,8 +19,8 @@ get_template_part( 'header-no-sidebar');
 							</div>
 							<div class="big">404</div>
 						</div>
-						<h2><?php esc_html_e( 'Désolé ! Page non trouvée !', 'the-guard' ); ?></h2>
-						<p><?php esc_html_e( 'Il semble que le contenu de cette page a été déplacé. Nous vous proposons de refaire une recherche :', 'the-guard' ); ?></p>
+						<h2><?php esc_html_e( 'Sorry! Page not found!', 'the-guard' ); ?></h2>
+						<p><?php esc_html_e( 'It looks like nothing was found at this location. Maybe try a search?', 'the-guard' ); ?></p>
 						<?php get_search_form(); ?>
 					</div>
 			</div><!-- .page-content -->
