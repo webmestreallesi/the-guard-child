@@ -190,6 +190,9 @@ ul#menu-link-soumission .menu-item a:hover {
 }
 /**/
 /*menu shop sidebar left*/
+.sidebar-left-list-pages {
+    border: 1px solid #21252b;
+}
 .widget-area {
 	background-color:#fff;
 	border:1px solid #21252b;
