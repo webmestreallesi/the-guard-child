@@ -239,7 +239,7 @@ ul#menu-link-soumission .menu-item a:hover {
 	display:block;
 }
 .sidebar-left-list-pages li:last-child, .widget_product_categories li:last-child{
-	border-bottom:0;
+	border:0;
 }
 .widget_product_categories ul.children li {
     list-style: none;
