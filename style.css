@@ -88,6 +88,17 @@ License URI: http://themeforest.net/licenses/terms/regular
 .pricetable4-camera .ult_price_features h4 { color:#009ee0;}
 /**/
 
+/*Pricetable1 customization*/
+.pricetable1 li {background-color:rgba(255,255,255,1);}
+.pricetable1 li h3 {color:#fff;}
+.pricetable1 li h3 span {color:rgba(0,158,224,1);}
+.pricetable1 li.bestgreen:first-child {background-color:rgba(187,210,220,1);}
+.pricetable1 li:first-child { background-color:rgba(45,45,53,1);}
+.pricetable1 li.worth {background-color: rgba(45,45,53,1); color: rgba(0,158,224,1);}
+.pricetable1 li:last-child span { display:inline-block; color:#FFF}
+.pricetable1:hover li { color: rgba(45,45,53,1);}
+/**/
+
 /**flipbox element**/
 .ifb-front h3, .ifb-front p{
     text-align:center;
