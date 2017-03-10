@@ -345,3 +345,22 @@ label {
 /* Inputs for dark bgr 2 */
 .darkform2 textarea.form-control {height: auto;}
 /**/
+
+/*recaptacha Google footer*/
+.recaptacha-footer .rc-anchor-normal .rc-anchor-checkbox-label {
+    width: 94px;
+}
+.recaptacha-footer .rc-anchor-light {
+    background: #f9f9f9;
+    border: 1px solid #d3d3d3;
+    color: #000;
+}
+.recaptacha-footer .rc-anchor-normal {
+    height: 61px;
+    width: 248px;
+}
+.recaptacha-footer .rc-anchor-logo-portrait {
+    margin: 10px 0 0 26px;
+    width: 45px;
+}
+/**/
