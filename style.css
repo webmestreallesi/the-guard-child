@@ -87,6 +87,30 @@ License URI: http://themeforest.net/licenses/terms/regular
 .pricetable4 .ult_pricing_heading h3, .pricetable4-camera .ult_pricing_heading h3 {min-height:66px;}
 .pricetable4-camera .ult_price_features h4 { color:#009ee0;}
 /**/
+
+/*Pricetable1 customization*/
+.pricetable1 {list-style:none; margin:0 0 20px 0; padding:0; -webkit-transition: all 500ms;
+    transition: all 500ms; }
+.pricetable1 li {padding:10px 10px; margin:0; background-color:rgba(255,255,255,1); border-top:1px rgba(228,232,241,1) solid; text-align: center; -webkit-transition: all 500ms;
+    transition: all 500ms; }
+.pricetable1 li h3 { margin:20px 0}
+.pricetable1 li h3 span {display:block; color:rgba(0,158,224,1); margin-bottom:10px}
+.pricetable1 li span {font-size:15px; display:block; }
+.pricetable1 li.bestgreen:first-child {background-color:rgba(187,210,220,1);}
+.pricetable1 li:first-child { background-color:#2d2d35; border-top-left-radius:15px; border-top-right-radius:15px}
+.pricetable1 li.worth { font-size:26px; font-weight:bold; padding:20px; background-color: rgba(187,210,220,1); color: rgba(0,158,224,1);}
+.pricetable1 li.worth.besto {}
+.pricetable1 li:last-child {border-bottom-left-radius:0; border-bottom-right-radius:0; padding:30px 0; text-align: center}
+.pricetable1 li:last-child span { display:inline-block; color:#FFF}
+.pricetable1 li:before, .pricetable2 li:before, .pricetable2caption li:before {content:none}
+.pricetable1:hover { -webkit-transform:scale(1.07); -ms-transform:scale(1.07); transform:scale(1.07); z-index:5}
+.pricetable1:hover li { color: rgba(45,45,53,1);}
+.pricetable1:hover li span, .pricetable1:hover li pre {font-size:15px; margin: 0; padding: 0}
+.pricetable1:hover li:last-child {}
+.pricetable1:hover li.worth {-webkit-transform:scale(1.07, 1);-ms-transform:scale(1.07, 1);transform:scale(1.07, 1); color: rgba(11,143,198,1);}
+/**/
+
+
 /**flipbox element**/
 .ifb-front h3, .ifb-front p{
     text-align:center;
@@ -213,6 +237,9 @@ ul#menu-link-soumission .menu-item a:hover {
 	margin:0 !important;
 	padding:0 !important;
 	display:block;
+}
+.sidebar-left-list-pages li:last-child, .widget_product_categories li:last-child{
+	border-bottom:0;
 }
 .widget_product_categories ul.children li {
     list-style: none;
