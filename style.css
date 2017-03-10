@@ -341,3 +341,7 @@ main input[type=submit]{margin-bottom: 20px !important;}
 label {
     margin-right: 10px;
 }
+/*Darkform2 customization*/
+/* Inputs for dark bgr 2 */
+.darkform2 textarea.form-control {height: auto;}
+/**/
