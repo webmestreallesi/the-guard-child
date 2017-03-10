@@ -348,19 +348,19 @@ label {
 
 /*recaptacha Google footer*/
 .rc-anchor-normal .rc-anchor-checkbox-label {
-    width: 94px;
+    width: 94px !important;
 }
 .rc-anchor-light {
-    background: #f9f9f9;
-    border: 1px solid #d3d3d3;
-    color: #000;
+    background: #f9f9f9 !important;
+    border: 1px solid #d3d3d3 !important;
+    color: #000 !important;
 }
 .rc-anchor-normal {
-    height: 61px;
-    width: 248px;
+    height: 61px !important;
+    width: 248px !important;
 }
 .rc-anchor-logo-portrait {
-    margin: 10px 0 0 26px;
-    width: 45px;
+    margin: 10px 0 0 26px !important;
+    width: 45px !important;
 }
 /**/
