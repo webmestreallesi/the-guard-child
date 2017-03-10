@@ -190,7 +190,7 @@ ul#menu-link-soumission .menu-item a:hover {
 }
 /**/
 /*menu shop sidebar left*/
-.sidebar-left-list-pages {
+.sidebar-left-list-pages, .widget_product_categories {
     border: 1px solid #21252b;
 }
 .widget-area {
